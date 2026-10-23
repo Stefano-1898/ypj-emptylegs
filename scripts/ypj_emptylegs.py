@@ -182,18 +182,18 @@ class Citta:
             self.nuove += 1
         return self.memo[k]
 
-    def aree(self, partenza, arrivo):
-        trovate = []
-        for citta in (partenza, arrivo):
-            area = self.area_verificata(citta)
-            if not area:
-                codice = self.paese(citta)
-                area = PAESE_AREA.get(codice)
-                if codice == "" and citta:
-                    self.ignote.add(citta)
-            if area and area not in trovate:
-                trovate.append(area)
-        return trovate or ["Altre Tratte"]
+    def area_citta(self, citta):
+        area = self.area_verificata(citta)
+        if not area:
+            codice = self.paese(citta)
+            area = PAESE_AREA.get(codice)
+            if codice == "" and citta:
+                self.ignote.add(citta)
+        return area
+
+    def area_partenza(self, partenza):
+        """Il volo appartiene all'area della città di PARTENZA (criterio scelto per il sito)."""
+        return self.area_citta(partenza) or "Altre Tratte"
 
     def salva(self):
         if self.nuove:
@@ -335,8 +335,8 @@ async def update():
     w.writerow(["area", "partenza", "arrivo", "data", "ora", "aereo", "posti", "prezzo"])
     citta = Citta()
     for v in voli:
-        # aree di partenza e di arrivo, separate da "|" (il volo compare in entrambe le schede)
-        w.writerow(["|".join(citta.aree(v["partenza"], v["arrivo"])), v["partenza"], v["arrivo"], v["data"], v["ora"], v["aereo"], v["posti"], v["prezzo"]])
+        # area della città di partenza
+        w.writerow([citta.area_partenza(v["partenza"]), v["partenza"], v["arrivo"], v["data"], v["ora"], v["aereo"], v["posti"], v["prezzo"]])
     nuovo = out.getvalue()
     vecchio = open(CSV_VOLI, encoding="utf-8").read() if os.path.exists(CSV_VOLI) else ""
     os.makedirs("data", exist_ok=True)
