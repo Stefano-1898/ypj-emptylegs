@@ -86,4 +86,11 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    import traceback
+    try:
+        asyncio.run(main())
+    except BaseException:
+        os.makedirs("data", exist_ok=True)
+        with open("data/analisi_errore.txt", "w", encoding="utf-8") as fh:
+            fh.write(traceback.format_exc())
+        print(traceback.format_exc())
