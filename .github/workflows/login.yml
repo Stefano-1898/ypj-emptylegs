@@ -17,8 +17,8 @@ jobs:
   login:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - run: pip install -q telethon cryptography
@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "YPJ Empty Leg"
           git config user.email "actions@users.noreply.github.com"
-          git add -A secure login data status.txt
+          git add -A
           git diff --cached --quiet || git commit -m "Accesso Telegram: aggiornamento stato"
           git pull --rebase -q origin main
           git push
