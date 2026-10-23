@@ -41,6 +41,8 @@ RICHIESTA = "login/richiesta.txt"     # file che avvia la richiesta del codice
 CSV_VOLI = "data/emptylegs.csv"
 CITTA = "data/citta.json"              # città già riconosciute (paese) — si arricchisce da solo
 CORREZIONI = "data/correzioni_citta.json"   # eventuali correzioni manuali: {"nome città": "IT"}
+VERIFICATE = "data/citta_verificate.json"   # elenco città → area (lo stesso del sito), consultato per primo
+EUROPA_MED = "gb,ie,im,je,gg,it,sm,va,fr,mc,ch,li,at,de,cz,pl,hu,sk,gr,hr,si,rs,ba,me,mk,al,xk,bg,ro,md,ua,tr,cy,mt,ee,lv,lt,es,pt,ad,gi,be,nl,lu,dk,no,se,fi,is,ma,tn,dz,eg,il,lb,jo,ae,sa,qa,bh,kw,om"
 
 # Paese → area del sito (codici ISO a 2 lettere)
 AREE_PAESI = {
@@ -121,9 +123,12 @@ def carica_json(percorso):
 
 def cerca_paese(nome):
     """Chiede a OpenStreetMap in che paese si trova la città (una volta sola per città)."""
-    for q in (nome, f"{nome} airport"):
-        url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(
-            {"q": q, "format": "json", "limit": 1, "addressdetails": 1, "accept-language": "en"})
+    tentativi = [(nome, EUROPA_MED), (f"{nome} airport", EUROPA_MED), (nome, None), (f"{nome} airport", None)]
+    for q, paesi in tentativi:
+        parametri = {"q": q, "format": "json", "limit": 1, "addressdetails": 1, "accept-language": "en"}
+        if paesi:
+            parametri["countrycodes"] = paesi   # prima si cerca in Europa e Mediterraneo
+        url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(parametri)
         req = urllib.request.Request(url, headers={"User-Agent": "YPJ-EmptyLegs/1.0 (info@yourprivatejet.eu)"})
         try:
             time.sleep(1.1)   # regola d'uso del servizio: massimo 1 richiesta al secondo
@@ -143,6 +148,15 @@ class Citta:
         self.memo = carica_json(CITTA)
         self.correzioni = {norm_citta(k): v.upper() for k, v in carica_json(CORREZIONI).items()}
         self.nuove, self.ignote = 0, set()
+        self.verificate = [(" " + norm_citta(c) + " ", a) for c, a in carica_json(VERIFICATE).items()]
+        self.verificate.sort(key=lambda x: -len(x[0]))   # prima i nomi più lunghi ("belfast city" prima di "belfast")
+
+    def area_verificata(self, nome):
+        testo = " " + norm_citta(nome) + " "
+        for chiave, area in self.verificate:
+            if chiave in testo:
+                return area
+        return None
 
     def paese(self, nome):
         k = norm_citta(nome)
@@ -161,10 +175,12 @@ class Citta:
     def aree(self, partenza, arrivo):
         trovate = []
         for citta in (partenza, arrivo):
-            codice = self.paese(citta)
-            area = PAESE_AREA.get(codice)
-            if codice == "" and citta:
-                self.ignote.add(citta)
+            area = self.area_verificata(citta)
+            if not area:
+                codice = self.paese(citta)
+                area = PAESE_AREA.get(codice)
+                if codice == "" and citta:
+                    self.ignote.add(citta)
             if area and area not in trovate:
                 trovate.append(area)
         return trovate or ["Altre Tratte"]
