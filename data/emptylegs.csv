@@ -1,38 +1,4 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-Benelux,Amsterdam,Oxford,23/10/2026,,Pilatus PC-24,6,7425.6
-Benelux,Amsterdam,Venice,23/10/2026,,Pilatus PC-12/47E (NG),6,14547.6
-Iberia,Barcelona,Geneva,23/10/2026,,King Air 260,6,8140.8
-Balcani / EST-EU,Belgrade,Satu Mare,23/10/2026,,Citation XLS+,8,7314
-UK & Irlanda,Birmingham,Milan,23/10/2026,,Citation M2,6,9043.2
-Europa Centrale,Bordeaux,Cambridge,23/10/2026,,Hawker 900XP,6-9,8392.8
-Balcani / EST-EU,Chisinau,Athens,23/10/2026,,Praetor 600,9,13234.8
-Balcani / EST-EU,Chisinau,Poznan,23/10/2026,,Falcon 2000EX EASy,10,18159.6
-Europa Centrale,Dusseldorf,Paris,23/10/2026,,Citation XLS,7-8,4536
-Europa Centrale,Dusseldorf,Oxford,23/10/2026,,Pilatus PC-24,6-8,14906.4
-Italia,Florence,Paris,23/10/2026,,Global Express XRS,12-19,14157.6
-Italia,Florence,Munich,23/10/2026,,Citation XLS+,7-8,7528.8
-Europa Centrale,Friedrichshafen,Salzburg,23/10/2026,,Phenom 300,4-6,4249.2
-Iberia,Gibraltar,Jerez De La Frontera,23/10/2026,,Citation XLS,7-8,4694.4
-Benelux,Liege,Paris,23/10/2026,,Embraer 135 LR,30,10626
-UK & Irlanda,London,Valencia,23/10/2026,,Phenom 300,7,13629.6
-Europa Centrale,Luxembourg,Geneva,23/10/2026,,Pilatus PC-24,6,5790
-Iberia,Malaga,Tires,23/10/2026,,Pilatus PC-24,8,7987.2
-Europa Centrale,Memmingen,London,23/10/2026,,Challenger 300,7-9,16160.4
-Italia,Milan,Paris,23/10/2026,,Citation CJ2,4-6,7010.4
-Italia,Milan,Tires,23/10/2026,,Pilatus PC-24,8,31923.6
-Europa Centrale,Montpellier,Milan,23/10/2026,,Citation CJ2+,4-6,5274
-Europa Centrale,Nice,Comiso,23/10/2026,,Citation Mustang,4,2390.4
-UK & Irlanda,Northolt,Munich,23/10/2026,,Phenom 300,4-6,9826.8
-Iberia,Palma Mallorca,Jersey,23/10/2026,,Pilatus PC-24,6,22572
-Europa Centrale,Paris,Ibiza,23/10/2026,,Pilatus PC-24,8,17048.4
-Europa Centrale,Paris,Tenerife,23/10/2026,,Citation XLS,7-8,28054.8
-Europa Centrale,Paris,Cambridge,23/10/2026,,Hawker 900XP,6-9,5918.4
-Italia,Rome,Tires,23/10/2026,,Pilatus PC-24,6,24349.2
-Italia,Rome,Geneva,23/10/2026,,Pilatus PC-24,8,11913.6
-Benelux,Rotterdam,Birmingham,23/10/2026,,Citation CJ2,6-7,5412
-Altre Tratte,Sharm el Sheikh,Athens,23/10/2026,,Citation XLS,7-8,18888
-Europa Centrale,Warsaw,Geneva,23/10/2026,,Pilatus PC-24,8,14719.2
-Europa Centrale,Zurich,Memmingen,23/10/2026,,Challenger 300,7-9,6810
 Europa Centrale,Ajaccio,Stuttgart,24/10/2026,,Citation M2,5,6322.8
 Europa Centrale,Altenrhein,Bordeaux,24/10/2026,,Phenom 100,4,10556.4
 Benelux,Amsterdam,London,24/10/2026,,Pilatus PC-24,6,10418.4
