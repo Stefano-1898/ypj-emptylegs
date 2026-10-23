@@ -19,6 +19,10 @@ import json
 import os
 import re
 import sys
+import time
+import unicodedata
+import urllib.parse
+import urllib.request
 from zoneinfo import ZoneInfo
 
 from cryptography.fernet import Fernet, InvalidToken
@@ -35,6 +39,22 @@ SESSIONE = "secure/session.enc"
 CODICE = "login/code.enc"             # codice ricevuto su Telegram (cifrato)
 RICHIESTA = "login/richiesta.txt"     # file che avvia la richiesta del codice
 CSV_VOLI = "data/emptylegs.csv"
+CITTA = "data/citta.json"              # città già riconosciute (paese) — si arricchisce da solo
+CORREZIONI = "data/correzioni_citta.json"   # eventuali correzioni manuali: {"nome città": "IT"}
+
+# Paese → area del sito (codici ISO a 2 lettere)
+AREE_PAESI = {
+    "UK & Irlanda": "GB IE IM JE GG",
+    "Italia": "IT SM VA",
+    "Europa Centrale": "FR MC CH LI AT DE CZ PL HU SK",
+    "Grecia": "GR",
+    "Balcani / EST-EU": "HR SI RS BA ME MK AL XK BG RO MD UA BY TR CY MT EE LV LT",
+    "Iberia": "ES PT AD GI",
+    "Benelux": "BE NL LU",
+    "UAE": "AE",
+    "USA": "US",
+}
+PAESE_AREA = {c: area for area, codici in AREE_PAESI.items() for c in codici.split()}
 STATO = "status.txt"
 
 RE_TRATTA = re.compile(r"Tratta\s+(.+?)\s+a\s+bordo\s+(?:del(?:l['’]|lo|la)?|di)\s*(.+)", re.I)
@@ -82,6 +102,78 @@ def salva(percorso, f, dati):
 def client_da(cfg, sessione=""):
     return TelegramClient(StringSession(sessione), int(cfg["api_id"]), cfg["api_hash"],
                           device_model="YPJ Empty Leg (GitHub)", app_version="1.0")
+
+
+# ---------------------------------------------------------------- riconoscimento automatico delle città
+
+def norm_citta(nome):
+    t = unicodedata.normalize("NFD", str(nome or "").lower())
+    t = "".join(c for c in t if unicodedata.category(c) != "Mn")
+    return re.sub(r"[^a-z0-9]+", " ", t).strip()
+
+
+def carica_json(percorso):
+    try:
+        return json.load(open(percorso, encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def cerca_paese(nome):
+    """Chiede a OpenStreetMap in che paese si trova la città (una volta sola per città)."""
+    for q in (nome, f"{nome} airport"):
+        url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(
+            {"q": q, "format": "json", "limit": 1, "addressdetails": 1, "accept-language": "en"})
+        req = urllib.request.Request(url, headers={"User-Agent": "YPJ-EmptyLegs/1.0 (info@yourprivatejet.eu)"})
+        try:
+            time.sleep(1.1)   # regola d'uso del servizio: massimo 1 richiesta al secondo
+            risultati = json.load(urllib.request.urlopen(req, timeout=20))
+        except Exception as e:
+            print("Ricerca città non riuscita:", nome, e)
+            return None
+        if risultati:
+            codice = (risultati[0].get("address", {}).get("country_code") or "").upper()
+            if codice:
+                return codice
+    return ""
+
+
+class Citta:
+    def __init__(self):
+        self.memo = carica_json(CITTA)
+        self.correzioni = {norm_citta(k): v.upper() for k, v in carica_json(CORREZIONI).items()}
+        self.nuove, self.ignote = 0, set()
+
+    def paese(self, nome):
+        k = norm_citta(nome)
+        if not k:
+            return ""
+        if k in self.correzioni:
+            return self.correzioni[k]
+        if k not in self.memo:
+            codice = cerca_paese(nome)
+            if codice is None:          # servizio non raggiungibile: si riproverà al prossimo giro
+                return ""
+            self.memo[k] = codice
+            self.nuove += 1
+        return self.memo[k]
+
+    def aree(self, partenza, arrivo):
+        trovate = []
+        for citta in (partenza, arrivo):
+            codice = self.paese(citta)
+            area = PAESE_AREA.get(codice)
+            if codice == "" and citta:
+                self.ignote.add(citta)
+            if area and area not in trovate:
+                trovate.append(area)
+        return trovate or ["Altre Tratte"]
+
+    def salva(self):
+        if self.nuove:
+            os.makedirs("data", exist_ok=True)
+            with open(CITTA, "w", encoding="utf-8") as fh:
+                json.dump(dict(sorted(self.memo.items())), fh, ensure_ascii=False, indent=1)
 
 
 # ---------------------------------------------------------------- estrazione dati
@@ -215,18 +307,23 @@ async def update():
     out = io.StringIO()
     w = csv.writer(out, lineterminator="\n")
     w.writerow(["area", "partenza", "arrivo", "data", "ora", "aereo", "posti", "prezzo"])
+    citta = Citta()
     for v in voli:
-        # l'area la calcola il sito in base alle città, come prima
-        w.writerow(["", v["partenza"], v["arrivo"], v["data"], v["ora"], v["aereo"], v["posti"], v["prezzo"]])
+        # aree di partenza e di arrivo, separate da "|" (il volo compare in entrambe le schede)
+        w.writerow(["|".join(citta.aree(v["partenza"], v["arrivo"])), v["partenza"], v["arrivo"], v["data"], v["ora"], v["aereo"], v["posti"], v["prezzo"]])
     nuovo = out.getvalue()
     vecchio = open(CSV_VOLI, encoding="utf-8").read() if os.path.exists(CSV_VOLI) else ""
     os.makedirs("data", exist_ok=True)
+    citta.salva()
+    extra = f" Città nuove riconosciute: {citta.nuove}." if citta.nuove else ""
+    if citta.ignote:
+        extra += " Città NON riconosciute: " + ", ".join(sorted(citta.ignote)) + "."
     if nuovo != vecchio:
         with open(CSV_VOLI, "w", encoding="utf-8") as fh:
             fh.write(nuovo)
-        scrivi_stato(f"Aggiornato: {len(voli)} voli futuri (messaggi letti {letti}, non riconosciuti {scartati}).")
+        scrivi_stato(f"Aggiornato: {len(voli)} voli futuri (messaggi letti {letti}, non riconosciuti {scartati}).{extra}")
     else:
-        print(f"Nessuna novità: {len(voli)} voli futuri (messaggi letti {letti}).")
+        scrivi_stato(f"Controllo eseguito, nessuna novità: {len(voli)} voli futuri.{extra}")
 
 
 if __name__ == "__main__":
