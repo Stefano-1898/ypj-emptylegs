@@ -1,0 +1,35 @@
+name: Analisi sezioni Telegram (una tantum)
+
+on:
+  push:
+    paths:
+      - "run/analisi.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram
+  cancel-in-progress: false
+
+jobs:
+  analisi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q telethon cryptography
+      - name: Analisi
+        env:
+          YPJ_KEY: ${{ secrets.YPJ_KEY }}
+        run: python scripts/analisi_sezioni.py
+      - name: Salva risultato
+        run: |
+          git config user.name "YPJ Empty Leg"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Analisi sezioni Telegram"
+          git pull --rebase -q origin main
+          git push
