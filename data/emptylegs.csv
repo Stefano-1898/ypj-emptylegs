@@ -15,19 +15,19 @@ Europa Centrale,Friedrichshafen,Salzburg,23/10/2026,,Phenom 300,4-6,4249.2
 Iberia,Gibraltar,Jerez De La Frontera,23/10/2026,,Citation XLS,7-8,4694.4
 Benelux|Europa Centrale,Liege,Paris,23/10/2026,,Embraer 135 LR,30,10626
 UK & Irlanda|Iberia,London,Valencia,23/10/2026,,Phenom 300,7,13629.6
-Benelux|Europa Centrale,Luxembourg,Geneva,23/10/2026,,Pilatus PC-24,6,5790
-Iberia|Italia,Malaga,Tires,23/10/2026,,Pilatus PC-24,8,7987.2
+Europa Centrale,Luxembourg,Geneva,23/10/2026,,Pilatus PC-24,6,5790
+Iberia,Malaga,Tires,23/10/2026,,Pilatus PC-24,8,7987.2
 Europa Centrale|UK & Irlanda,Memmingen,London,23/10/2026,,Challenger 300,7-9,16160.4
 Italia|Europa Centrale,Milan,Paris,23/10/2026,,Citation CJ2,4-6,7010.4
-Italia,Milan,Tires,23/10/2026,,Pilatus PC-24,8,31923.6
+Italia|Iberia,Milan,Tires,23/10/2026,,Pilatus PC-24,8,31923.6
 Europa Centrale|Italia,Montpellier,Milan,23/10/2026,,Citation CJ2+,4-6,5274
 Europa Centrale|Italia,Nice,Comiso,23/10/2026,,Citation Mustang,4,2390.4
 UK & Irlanda|Europa Centrale,Northolt,Munich,23/10/2026,,Phenom 300,4-6,9826.8
-USA,Palma Mallorca,Jersey,23/10/2026,,Pilatus PC-24,6,22572
+Iberia|UK & Irlanda,Palma Mallorca,Jersey,23/10/2026,,Pilatus PC-24,6,22572
 Europa Centrale|Iberia,Paris,Ibiza,23/10/2026,,Pilatus PC-24,8,17048.4
 Europa Centrale|Iberia,Paris,Tenerife,23/10/2026,,Citation XLS,7-8,28054.8
 Europa Centrale|UK & Irlanda,Paris,Cambridge,23/10/2026,,Hawker 900XP,6-9,5918.4
-Italia,Rome,Tires,23/10/2026,,Pilatus PC-24,6,24349.2
+Italia|Iberia,Rome,Tires,23/10/2026,,Pilatus PC-24,6,24349.2
 Italia|Europa Centrale,Rome,Geneva,23/10/2026,,Pilatus PC-24,8,11913.6
 Benelux|UK & Irlanda,Rotterdam,Birmingham,23/10/2026,,Citation CJ2,6-7,5412
 Grecia,Sharm el Sheikh,Athens,23/10/2026,,Citation XLS,7-8,18888
@@ -60,7 +60,7 @@ Europa Centrale,Altenrhein,Bordeaux,25/10/2026,,Phenom 100,4,10556.4
 Iberia|Italia,Barcelona,Rome,25/10/2026,,Pilatus PC-24,8,13222.8
 Balcani / EST-EU|Italia,Belgrade,Palermo,25/10/2026,,Citation XLS+,7-8,13443.6
 Europa Centrale,Berne,Bordeaux,25/10/2026,,Phenom 100,4,9241.2
-Europa Centrale,Dortmund,Palma Mallorca,25/10/2026,,Phenom 300,7,18745.2
+Europa Centrale|Iberia,Dortmund,Palma Mallorca,25/10/2026,,Phenom 300,7,18745.2
 Europa Centrale|Italia,Geneva,Grosseto,25/10/2026,,Beechjet 400A,7,8185.2
 Europa Centrale,Geneva,Cannes,25/10/2026,,Citation M2,6,5082
 Europa Centrale,Geneva,Paris,25/10/2026,,Hawker 900XP,6-9,5907.6
@@ -71,14 +71,14 @@ Europa Centrale,Klagenfurt,Friedrichshafen,25/10/2026,,Phenom 300E,9,6465.6
 UK & Irlanda|Europa Centrale,London,Munich,25/10/2026,,Citation XLS+,6-9,9891.6
 UK & Irlanda|Europa Centrale,London,Dusseldorf,25/10/2026,,Citation XLS+,6-9,7056
 Iberia|Europa Centrale,Madrid,Nice,25/10/2026,,Gulfstream G-200,9,13878
-Altre Tratte,Marrakech,Palma Mallorca,25/10/2026,,Beechjet 400A,7,10197.6
+Iberia,Marrakech,Palma Mallorca,25/10/2026,,Beechjet 400A,7,10197.6
 UK & Irlanda,Marrakech,Leeds,25/10/2026,,Challenger 300,7-9,39534
 Europa Centrale|UK & Irlanda,Memmingen,Leeds,25/10/2026,,Challenger 300,7-9,19899.6
 Europa Centrale,Muenster,Nice,25/10/2026,,Phenom 300,8,12804
 USA|Europa Centrale,New York,Paris,25/10/2026,,Global Express XRS,12-19,56935.2
 Europa Centrale|Italia,Orleans,Rome,25/10/2026,,Citation M2,5,10369.2
 Europa Centrale,Oslo,Vienna,25/10/2026,,Challenger 350,9,30520.8
-Italia,Palma Mallorca,Milan,25/10/2026,,Pilatus PC-24,8,17898
+Iberia|Italia,Palma Mallorca,Milan,25/10/2026,,Pilatus PC-24,8,17898
 Grecia|Balcani / EST-EU,Rhodes,Istanbul,25/10/2026,,Legacy 650,13,13332
 Balcani / EST-EU|Italia,Tivat,Palermo,25/10/2026,,Citation XLS+,7-8,9813.6
 Europa Centrale|Balcani / EST-EU,Warsaw,Split,25/10/2026,,Challenger 300,4-6,13002
