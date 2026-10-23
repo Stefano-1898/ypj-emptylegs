@@ -121,25 +121,35 @@ def carica_json(percorso):
         return {}
 
 
+def _nominatim(q, paesi=None):
+    parametri = {"q": q, "format": "json", "limit": 1, "addressdetails": 1, "accept-language": "en"}
+    if paesi:
+        parametri["countrycodes"] = paesi
+    url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(parametri)
+    req = urllib.request.Request(url, headers={"User-Agent": "YPJ-EmptyLegs/1.0 (info@yourprivatejet.eu)"})
+    time.sleep(1.1)   # regola d'uso del servizio: massimo 1 richiesta al secondo
+    risultati = json.load(urllib.request.urlopen(req, timeout=20))
+    if not risultati:
+        return None
+    r = risultati[0]
+    return ((r.get("address", {}).get("country_code") or "").upper(), float(r.get("importance") or 0))
+
+
 def cerca_paese(nome):
-    """Chiede a OpenStreetMap in che paese si trova la città (una volta sola per città)."""
-    tentativi = [(nome, EUROPA_MED), (f"{nome} airport", EUROPA_MED), (nome, None), (f"{nome} airport", None)]
-    for q, paesi in tentativi:
-        parametri = {"q": q, "format": "json", "limit": 1, "addressdetails": 1, "accept-language": "en"}
-        if paesi:
-            parametri["countrycodes"] = paesi   # prima si cerca in Europa e Mediterraneo
-        url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(parametri)
-        req = urllib.request.Request(url, headers={"User-Agent": "YPJ-EmptyLegs/1.0 (info@yourprivatejet.eu)"})
-        try:
-            time.sleep(1.1)   # regola d'uso del servizio: massimo 1 richiesta al secondo
-            risultati = json.load(urllib.request.urlopen(req, timeout=20))
-        except Exception as e:
-            print("Ricerca città non riuscita:", nome, e)
-            return None
-        if risultati:
-            codice = (risultati[0].get("address", {}).get("country_code") or "").upper()
-            if codice:
-                return codice
+    """Chiede a OpenStreetMap in che paese si trova la città (una volta sola per città).
+    Confronta il miglior risultato in Europa/Mediterraneo con quello mondiale: se il risultato
+    mondiale è molto più importante (es. New York rispetto a un villaggio omonimo) vince quello."""
+    try:
+        for q in (nome, f"{nome} airport"):
+            eu = _nominatim(q, EUROPA_MED)
+            mondo = _nominatim(q)
+            if eu and mondo:
+                return mondo[0] if mondo[1] - eu[1] > 0.2 else eu[0]
+            if eu or mondo:
+                return (eu or mondo)[0]
+    except Exception as e:
+        print("Ricerca città non riuscita:", nome, e)
+        return None
     return ""
 
 
