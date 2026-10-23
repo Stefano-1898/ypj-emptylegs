@@ -1,0 +1,120 @@
+area,partenza,arrivo,data,ora,aereo,posti,prezzo
+,Amsterdam,Oxford,23/10/2026,,Pilatus PC-24,6,7425.6
+,Amsterdam,Venice,23/10/2026,,Pilatus PC-12/47E (NG),6,14547.6
+,Barcelona,Geneva,23/10/2026,,King Air 260,6,8140.8
+,Belgrade,Satu Mare,23/10/2026,,Citation XLS+,8,7314
+,Birmingham,Milan,23/10/2026,,Citation M2,6,9043.2
+,Bordeaux,Cambridge,23/10/2026,,Hawker 900XP,6-9,8392.8
+,Chisinau,Athens,23/10/2026,,Praetor 600,9,13234.8
+,Chisinau,Poznan,23/10/2026,,Falcon 2000EX EASy,10,18159.6
+,Dusseldorf,Paris,23/10/2026,,Citation XLS,7-8,4536
+,Dusseldorf,Oxford,23/10/2026,,Pilatus PC-24,6-8,14906.4
+,Florence,Paris,23/10/2026,,Global Express XRS,12-19,14157.6
+,Florence,Munich,23/10/2026,,Citation XLS+,7-8,7528.8
+,Friedrichshafen,Salzburg,23/10/2026,,Phenom 300,4-6,4249.2
+,Gibraltar,Jerez De La Frontera,23/10/2026,,Citation XLS,7-8,4694.4
+,Liege,Paris,23/10/2026,,Embraer 135 LR,30,10626
+,London,Valencia,23/10/2026,,Phenom 300,7,13629.6
+,Luxembourg,Geneva,23/10/2026,,Pilatus PC-24,6,5790
+,Malaga,Tires,23/10/2026,,Pilatus PC-24,8,7987.2
+,Memmingen,London,23/10/2026,,Challenger 300,7-9,16160.4
+,Milan,Paris,23/10/2026,,Citation CJ2,4-6,7010.4
+,Milan,Tires,23/10/2026,,Pilatus PC-24,8,31923.6
+,Montpellier,Milan,23/10/2026,,Citation CJ2+,4-6,5274
+,Nice,Comiso,23/10/2026,,Citation Mustang,4,2390.4
+,Northolt,Munich,23/10/2026,,Phenom 300,4-6,9826.8
+,Palma Mallorca,Jersey,23/10/2026,,Pilatus PC-24,6,22572
+,Paris,Ibiza,23/10/2026,,Pilatus PC-24,8,17048.4
+,Paris,Tenerife,23/10/2026,,Citation XLS,7-8,28054.8
+,Paris,Cambridge,23/10/2026,,Hawker 900XP,6-9,5918.4
+,Rome,Tires,23/10/2026,,Pilatus PC-24,6,24349.2
+,Rome,Geneva,23/10/2026,,Pilatus PC-24,8,11913.6
+,Rotterdam,Birmingham,23/10/2026,,Citation CJ2,6-7,5412
+,Sharm el Sheikh,Athens,23/10/2026,,Citation XLS,7-8,18888
+,Warsaw,Geneva,23/10/2026,,Pilatus PC-24,8,14719.2
+,Zurich,Memmingen,23/10/2026,,Challenger 300,7-9,6810
+,Altenrhein,Bordeaux,24/10/2026,,Phenom 100,4,10556.4
+,Amsterdam,London,24/10/2026,,Pilatus PC-24,6,10418.4
+,Athens,Belgrade,24/10/2026,,Citation XLS,7-8,11628
+,Basel,Leeds,24/10/2026,,Pilatus PC-24,8,19767.6
+,Belgrade,Budapest,24/10/2026,,Citation XLS+,7-8,5940
+,Bratislava,Berlin,24/10/2026,,Citation XLS+,9,6865.2
+,Cannes,Milan,24/10/2026,,Citation M2,6,4020
+,Chisinau,Istanbul,24/10/2026,,Falcon 2000EX EASy,10,9373.2
+,Dublin,Nice,24/10/2026,,Legacy 650,13,24140.4
+,Geneva,Nice,24/10/2026,,Phenom 300,7,5462.4
+,Geneva,Marrakech,24/10/2026,,Gulfstream G-500,12,50820
+,Heraklion,Cagliari,24/10/2026,,Citation XLS+,6-9,16506
+,London,Paris,24/10/2026,,Hawker 900XP,6-9,6402
+,Maastricht,London,24/10/2026,,Pilatus PC-24,8,6865.2
+,Memmingen,Vienna,24/10/2026,,Challenger 300,7-9,12794.4
+,Paris,London,24/10/2026,,Global Express XRS,12-19,13200
+,Rome,London,24/10/2026,,Pilatus PC-24,8,19767.6
+,Sharm el Sheikh,Athens,24/10/2026,,Citation XLS,7-8,18888
+,Suceava,Friedrichshafen,24/10/2026,,Falcon 2000EX EASy,10,18943.2
+,Tel Aviv-Yafo,Rhodes,24/10/2026,,Legacy 650,13,13332
+,Zagreb,Perugia,24/10/2026,,Citation M2,5,6072
+,Zurich,Vienna,24/10/2026,,Challenger 300,7-9,13354.8
+,Zurich,Friedrichshafen,24/10/2026,,Falcon 2000EX EASy,10,9373.2
+,Altenrhein,Bordeaux,25/10/2026,,Phenom 100,4,10556.4
+,Barcelona,Rome,25/10/2026,,Pilatus PC-24,8,13222.8
+,Belgrade,Palermo,25/10/2026,,Citation XLS+,7-8,13443.6
+,Berne,Bordeaux,25/10/2026,,Phenom 100,4,9241.2
+,Dortmund,Palma Mallorca,25/10/2026,,Phenom 300,7,18745.2
+,Geneva,Grosseto,25/10/2026,,Beechjet 400A,7,8185.2
+,Geneva,Cannes,25/10/2026,,Citation M2,6,5082
+,Geneva,Paris,25/10/2026,,Hawker 900XP,6-9,5907.6
+,Geneva,Munich,25/10/2026,,Beechjet 400A,7,10197.6
+,Genoa,London,25/10/2026,,Pilatus PC-24,6,14532
+,Hamburg,Palanga,25/10/2026,,Citation XLS+,6-9,8946
+,Klagenfurt,Friedrichshafen,25/10/2026,,Phenom 300E,9,6465.6
+,London,Munich,25/10/2026,,Citation XLS+,6-9,9891.6
+,London,Dusseldorf,25/10/2026,,Citation XLS+,6-9,7056
+,Madrid,Nice,25/10/2026,,Gulfstream G-200,9,13878
+,Marrakech,Palma Mallorca,25/10/2026,,Beechjet 400A,7,10197.6
+,Marrakech,Leeds,25/10/2026,,Challenger 300,7-9,39534
+,Memmingen,Leeds,25/10/2026,,Challenger 300,7-9,19899.6
+,Muenster,Nice,25/10/2026,,Phenom 300,8,12804
+,New York,Paris,25/10/2026,,Global Express XRS,12-19,56935.2
+,Orleans,Rome,25/10/2026,,Citation M2,5,10369.2
+,Oslo,Vienna,25/10/2026,,Challenger 350,9,30520.8
+,Palma Mallorca,Milan,25/10/2026,,Pilatus PC-24,8,17898
+,Rhodes,Istanbul,25/10/2026,,Legacy 650,13,13332
+,Tivat,Palermo,25/10/2026,,Citation XLS+,7-8,9813.6
+,Warsaw,Split,25/10/2026,,Challenger 300,4-6,13002
+,Zurich,Zagreb,25/10/2026,,Citation M2,5,8053.2
+,Berlin,Bratislava,26/10/2026,,Citation XLS+,9,8510.4
+,Budapest,Madrid,26/10/2026,,Gulfstream G-280,7-9,24676.8
+,Dortmund,Bolzano,26/10/2026,,Phenom 300,8,9505.2
+,Geneva,Vienna,26/10/2026,,Challenger 350,9,24676.8
+,Istanbul,Florence,26/10/2026,,Citation XLS+,7-8,16034.4
+,London,Poitiers,26/10/2026,,Pilatus PC-12/47E (NG),6,10942.8
+,Malaga,Avignon,26/10/2026,,Pilatus PC-24,8,21638.4
+,Milan,Berne,26/10/2026,,Gulfstream G-280,7-9,5742
+,New York,Paris,26/10/2026,,Global Express XRS,12-19,56935.2
+,Oslo,Erfurt,26/10/2026,,Citation CJ3+,6,12714
+,Oxford,Avignon,26/10/2026,,Pilatus PC-24,8,19767.6
+,Paris,Newquay,26/10/2026,,Citation Mustang,4-6,7486.8
+,Vienna,Athens,26/10/2026,,Challenger 350,9,31689.6
+,Wroclaw,Zurich,26/10/2026,,Citation M2,5,10034.4
+,Zurich,Barcelona,26/10/2026,,Pilatus PC-12/47E (NG),6,17121.6
+,Zurich,Bolzano,26/10/2026,,Phenom 300,4-6,4249.2
+,Amsterdam,London,27/10/2026,,Phenom 300,8,6204
+,Blackpool,Cologne,27/10/2026,,Citation XLS,7-8,8946
+,Florence,Nice,27/10/2026,,Pilatus PC-12/47E (NG),6,6825.6
+,Geneva,Milan,27/10/2026,,Citation XLS+,7-8,5577.6
+,Leipzig/Halle,Bristol,27/10/2026,,Citation CJ2,6-7,8172
+,Marrakech,Tenerife,27/10/2026,,Challenger 300,7-9,17095.2
+,Muenster,Manchester,27/10/2026,,Citation XLS,7-8,9418.8
+,Perpignan,Valencia,27/10/2026,,Citation CJ3,6,7665.6
+,Speyer,Ibiza,27/10/2026,,Citation XLS,7-8,14144.4
+,Dortmund,Brussels,28/10/2026,,Phenom 300,7,4885.2
+,Dusseldorf,Toulon,28/10/2026,,Pilatus PC-24,8,18832.8
+,Florence,Geneva,28/10/2026,,Citation M2,6,7064.4
+,Friedrichshafen,Vienna,28/10/2026,,Phenom 300E,9,6021.6
+,Geneva,Frankfurt,28/10/2026,,Citation M2,6,6567.6
+,London,Dijon,28/10/2026,,Beechjet 400A,7,8185.2
+,Milan,St Moritz,28/10/2026,,Pilatus PC-24,8,6865.2
+,Basel,Milan,29/10/2026,,Pilatus PC-24,8,9483.6
+,London,Malaga,29/10/2026,,Phenom 300,4-6,15319.2
+,Milan,Karlsruhe/Baden Baden,29/10/2026,,Phenom 300,4-6,4869.6

@@ -1,3 +1,5 @@
+23/10/2026 09:47 — Aggiornato: 119 voli futuri (messaggi letti 800, non riconosciuti 0).
+23/10/2026 09:47 — Accesso riuscito come Stefano. Lettura automatica attiva.
 23/10/2026 09:46 — Codice richiesto: Telegram lo ha inviato sull'app. In attesa del codice.
 23/10/2026 09:45 — In attesa: accesso a Telegram non ancora effettuato.
 23/10/2026 09:43 — In attesa: manca la password YPJ_KEY nelle impostazioni protette (Settings → Secrets).
