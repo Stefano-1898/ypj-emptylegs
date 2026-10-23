@@ -1,8 +1,9 @@
 name: Aggiorna Empty Leg
 
 # Ogni 2 ore dalle 06 alle 22 circa (ora italiana), al minuto 17. Gli orari di GitHub sono in UTC.
-# Si può anche avviare caricando il file run/aggiorna.txt.
+# Si può anche avviare caricando il file run/aggiorna.txt, oppure dall'esterno (cron-job.org).
 on:
+  workflow_dispatch:
   schedule:
     - cron: "23 4-20/2 * * *"
   push:
