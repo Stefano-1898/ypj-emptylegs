@@ -4,7 +4,7 @@ name: Aggiorna Empty Leg
 # Si può anche avviare caricando il file run/aggiorna.txt.
 on:
   schedule:
-    - cron: "17 4-20/2 * * *"
+    - cron: "23 4-20/2 * * *"
   push:
     paths:
       - "run/**"
