@@ -1,2 +1,3 @@
+23/10/2026 09:46 — Codice richiesto: Telegram lo ha inviato sull'app. In attesa del codice.
 23/10/2026 09:45 — In attesa: accesso a Telegram non ancora effettuato.
 23/10/2026 09:43 — In attesa: manca la password YPJ_KEY nelle impostazioni protette (Settings → Secrets).
