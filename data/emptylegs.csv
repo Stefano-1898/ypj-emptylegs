@@ -1,36 +1,4 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-Europa Centrale,Ajaccio,Stuttgart,24/10/2026,,Citation M2,5,6322.8
-Europa Centrale,Altenrhein,Bordeaux,24/10/2026,,Phenom 100,4,10556.4
-Benelux,Amsterdam,London,24/10/2026,,Pilatus PC-24,6,10418.4
-Grecia,Athens,Belgrade,24/10/2026,,Citation XLS,7-8,11628
-Europa Centrale,Basel,Leeds,24/10/2026,,Pilatus PC-24,8,19767.6
-Balcani / EST-EU,Belgrade,Budapest,24/10/2026,,Citation XLS+,7-8,5940
-Europa Centrale,Bratislava,Berlin,24/10/2026,,Citation XLS+,9,6865.2
-Europa Centrale,Cannes,Milan,24/10/2026,,Citation M2,6,4020
-Balcani / EST-EU,Chisinau,Istanbul,24/10/2026,,Falcon 2000EX EASy,10,9373.2
-UK & Irlanda,Dublin,Nice,24/10/2026,,Legacy 650,13,24140.4
-Europa Centrale,Geneva,Nice,24/10/2026,,Phenom 300,7,5462.4
-Europa Centrale,Geneva,Marrakech,24/10/2026,,Gulfstream G-500,12,50820
-Europa Centrale,Hamburg,Vienna,24/10/2026,,Pilatus PC-24,8,8875.2
-Grecia,Heraklion,Cagliari,24/10/2026,,Citation XLS+,6-9,16506
-Europa Centrale,Leipzig/Halle,Berlin,24/10/2026,,Citation Mustang,4,1704
-UK & Irlanda,London,Paris,24/10/2026,,Hawker 900XP,6-9,6402
-Benelux,Maastricht,London,24/10/2026,,Pilatus PC-24,8,6865.2
-Europa Centrale,Memmingen,Vienna,24/10/2026,,Challenger 300,7-9,12794.4
-Italia,Milan,London,24/10/2026,,Pilatus PC-24,8,12474
-Italia,Milan,Nice,24/10/2026,,Citation Mustang,4,1836
-Italia,Naples,Belgrade,24/10/2026,,Citation XLS,7-8,9813.6
-UK & Irlanda,Oxford,Nuremberg,24/10/2026,,Praetor 600,9,11552.4
-Europa Centrale,Paris,London,24/10/2026,,Global Express XRS,12-19,13200
-Europa Centrale,Prague,Riga,24/10/2026,,Legacy 600,12-13,9450
-Italia,Rome,London,24/10/2026,,Pilatus PC-24,8,19767.6
-Altre Tratte,Sharm el Sheikh,Athens,24/10/2026,,Citation XLS,7-8,18888
-Balcani / EST-EU,Suceava,Friedrichshafen,24/10/2026,,Falcon 2000EX EASy,10,18943.2
-Altre Tratte,Tel Aviv-Yafo,Thira,24/10/2026,,Legacy 650,13,13576.8
-Altre Tratte,Tel Aviv-Yafo,Rhodes,24/10/2026,,Legacy 650,13,13332
-Balcani / EST-EU,Zagreb,Perugia,24/10/2026,,Citation M2,5,6072
-Europa Centrale,Zurich,Vienna,24/10/2026,,Challenger 300,7-9,13354.8
-Europa Centrale,Zurich,Friedrichshafen,24/10/2026,,Falcon 2000EX EASy,10,9373.2
 Europa Centrale,Ajaccio,Lugano,25/10/2026,,Citation M2,5,4502.4
 Europa Centrale,Altenrhein,Bordeaux,25/10/2026,,Phenom 100,4,10556.4
 Europa Centrale,Annecy,Geneva,25/10/2026,,King Air 260,6,1851.6
