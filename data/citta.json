@@ -1,6 +1,7 @@
 {
  "alta": "NO",
  "berne": "CH",
+ "helsinki": "FI",
  "marrakech": "MA",
  "muenster": "DE",
  "newquay": "GB",
@@ -8,6 +9,7 @@
  "oslo": "NO",
  "sharm el sheikh": "EG",
  "speyer": "DE",
+ "stockholm": "SE",
  "tel aviv yafo": "IL",
  "valence": "ES"
 }
