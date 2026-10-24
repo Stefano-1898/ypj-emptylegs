@@ -40,6 +40,7 @@ Benelux,Brussels,Lugano,25/10/2026,,Pilatus PC-24,6,10605.6
 Europa Centrale,Budapest,Riga,25/10/2026,,Gulfstream G-280,7-9,11913.6
 Europa Centrale,Dortmund,Palma Mallorca,25/10/2026,,Phenom 300,7,18745.2
 Europa Centrale,Dusseldorf,Maastricht,25/10/2026,,Citation Mustang,4-6,1704
+Europa Centrale,Geneva,Madrid,25/10/2026,,Gulfstream G-280,7-9,11354.4
 Europa Centrale,Geneva,Zagreb,25/10/2026,,Citation M2,5,7448.4
 Europa Centrale,Geneva,Grosseto,25/10/2026,,Beechjet 400A,7,8185.2
 Europa Centrale,Geneva,Cannes,25/10/2026,,Citation M2,6,5082
@@ -51,17 +52,20 @@ Europa Centrale,Klagenfurt,Friedrichshafen,25/10/2026,,Phenom 300E,9,6465.6
 UK & Irlanda,London,Paris,25/10/2026,,Citation CJ2,4-6,4838.4
 UK & Irlanda,London,Munich,25/10/2026,,Citation XLS+,6-9,9891.6
 UK & Irlanda,London,Dusseldorf,25/10/2026,,Citation XLS+,6-9,7056
+Europa Centrale,Luxembourg,Geneva,25/10/2026,,Citation Mustang,4,1704
 Iberia,Madrid,Nice,25/10/2026,,Gulfstream G-200,9,13878
 Altre Tratte,Marrakech,Palma Mallorca,25/10/2026,,Beechjet 400A,7,10197.6
 Altre Tratte,Marrakech,Leeds,25/10/2026,,Challenger 300,7-9,39534
 Europa Centrale,Memmingen,Leeds,25/10/2026,,Challenger 300,7-9,19899.6
 Europa Centrale,Muenster,Nice,25/10/2026,,Phenom 300,8,12804
 USA,New York,Paris,25/10/2026,,Global Express XRS,12-19,56935.2
+Europa Centrale,Nice,Palma Mallorca,25/10/2026,,Citation Mustang,4,2258.4
 Europa Centrale,Orleans,Rome,25/10/2026,,Citation M2,5,10369.2
 Altre Tratte,Oslo,Vienna,25/10/2026,,Challenger 350,9,30520.8
 Iberia,Palma Mallorca,Milan,25/10/2026,,Pilatus PC-24,8,17898
 Europa Centrale,Paris,Rome,25/10/2026,,Citation CJ2,6,10388.4
 Grecia,Rhodes,Istanbul,25/10/2026,,Legacy 650,13,13332
+Benelux,Rotterdam,Southampton,25/10/2026,,Citation Mustang,4,1704
 Europa Centrale,Stuttgart,Lugano,25/10/2026,,Citation M2,5,4161.6
 Grecia,Thira,Istanbul,25/10/2026,,Legacy 650,13,13332
 Balcani / EST-EU,Tivat,Palermo,25/10/2026,,Citation XLS+,7-8,9813.6
@@ -71,6 +75,7 @@ Europa Centrale,Warsaw,Split,25/10/2026,,Challenger 300,4-6,13002
 Europa Centrale,Zurich,Nice,25/10/2026,,Citation CJ1,6,4777.2
 Europa Centrale,Zurich,Rome,25/10/2026,,Citation M2,5,7063.2
 Europa Centrale,Zurich,Zagreb,25/10/2026,,Citation M2,5,8053.2
+Benelux,Amsterdam,Cherbourg,26/10/2026,,Falcon 2000EX EASy,10,9373.2
 Europa Centrale,Berlin,Bratislava,26/10/2026,,Citation XLS+,9,8510.4
 Europa Centrale,Budapest,Madrid,26/10/2026,,Gulfstream G-280,7-9,24676.8
 Europa Centrale,Dortmund,Bolzano,26/10/2026,,Phenom 300,8,9505.2
@@ -105,6 +110,7 @@ Europa Centrale,Speyer,Ibiza,27/10/2026,,Citation XLS,7-8,14144.4
 Europa Centrale,Warsaw,Tbilisi,27/10/2026,,Gulfstream G-650ER,13,52492.8
 Europa Centrale,Wroclaw,Zurich,27/10/2026,,Citation M2,5,10034.4
 Europa Centrale,Zurich,Newcastle,27/10/2026,,Pilatus PC-24,8,15841.2
+Benelux,Amsterdam,Toulon,28/10/2026,,Pilatus PC-24,6,20703.6
 Balcani / EST-EU,Bodrum,Rome,28/10/2026,,Global Express XRS,13,32431.2
 Europa Centrale,Dortmund,Brussels,28/10/2026,,Phenom 300,7,4885.2
 Europa Centrale,Dusseldorf,Luxembourg,28/10/2026,,Citation CJ1,5,5242.8
@@ -126,11 +132,13 @@ Europa Centrale,Paris,London,29/10/2026,,Beechjet 400A,7,6709.2
 Balcani / EST-EU,Sibiu,Bucharest,29/10/2026,,HondaJet,5,4094.4
 Europa Centrale,Zurich,Nice,29/10/2026,,Citation CJ2,6-7,5412
 Italia,Alghero,Malta,30/10/2026,,Falcon 2000LX,9,12986.4
+Benelux,Amsterdam,Antwerp,30/10/2026,,Citation CJ3,6,3962.4
 Balcani / EST-EU,Ankara,Bucharest,30/10/2026,,Citation XLS+,8,9708
 Europa Centrale,Basel,Dusseldorf,30/10/2026,,Pilatus PC-24,8,11352
 Italia,Florence,Chisinau,30/10/2026,,Phenom 300E,9,14923.2
 Europa Centrale,Geneva,Palma Mallorca,30/10/2026,,Phenom 300,7,11484
 Iberia,Valence,Palermo,30/10/2026,,Phenom 300E,9,10196.4
+Benelux,Amsterdam,Brussels,31/10/2026,,Citation CJ3,6,3962.4
 Europa Centrale,Hamburg,London,31/10/2026,,Beechjet 400A,7,10197.6
 Altre Tratte,Helsinki,Amsterdam,31/10/2026,,Citation CJ3,6,17636.4
 Italia,Milan,Dole,31/10/2026,,Pilatus PC-24,8,10605.6
