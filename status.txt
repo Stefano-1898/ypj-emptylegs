@@ -1,3 +1,4 @@
+25/10/2026 12:15 — Controllo eseguito, nessuna novità: 123 voli futuri.
 25/10/2026 11:15 — Controllo eseguito, nessuna novità: 123 voli futuri.
 25/10/2026 10:15 — Controllo eseguito, nessuna novità: 123 voli futuri.
 25/10/2026 10:13 — Controllo eseguito, nessuna novità: 123 voli futuri.
@@ -57,4 +58,3 @@
 23/10/2026 09:47 — Accesso riuscito come Stefano. Lettura automatica attiva.
 23/10/2026 09:46 — Codice richiesto: Telegram lo ha inviato sull'app. In attesa del codice.
 23/10/2026 09:45 — In attesa: accesso a Telegram non ancora effettuato.
-23/10/2026 09:43 — In attesa: manca la password YPJ_KEY nelle impostazioni protette (Settings → Secrets).
