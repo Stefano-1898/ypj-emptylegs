@@ -1,3 +1,4 @@
+25/10/2026 13:15 — Aggiornato: 134 voli futuri (messaggi letti 800, non riconosciuti 0).
 25/10/2026 12:15 — Controllo eseguito, nessuna novità: 123 voli futuri.
 25/10/2026 11:15 — Controllo eseguito, nessuna novità: 123 voli futuri.
 25/10/2026 10:15 — Controllo eseguito, nessuna novità: 123 voli futuri.
@@ -57,4 +58,3 @@
 23/10/2026 09:47 — Aggiornato: 119 voli futuri (messaggi letti 800, non riconosciuti 0).
 23/10/2026 09:47 — Accesso riuscito come Stefano. Lettura automatica attiva.
 23/10/2026 09:46 — Codice richiesto: Telegram lo ha inviato sull'app. In attesa del codice.
-23/10/2026 09:45 — In attesa: accesso a Telegram non ancora effettuato.
