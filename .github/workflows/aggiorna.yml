@@ -1,11 +1,9 @@
 name: Aggiorna Empty Leg
 
-# Ogni 2 ore dalle 06 alle 22 circa (ora italiana), al minuto 17. Gli orari di GitHub sono in UTC.
-# Si può anche avviare caricando il file run/aggiorna.txt, oppure dall'esterno (cron-job.org).
+# Avviato ogni ora (minuto 15) da cron-job.org. L'orario interno di GitHub è stato tolto
+# perché partiva in modo irregolare e si sovrapponeva. Si può avviare anche caricando run/aggiorna.txt.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "23 4-20/2 * * *"
   push:
     paths:
       - "run/**"
@@ -23,6 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: main
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
@@ -36,6 +36,11 @@ jobs:
           git config user.name "YPJ Empty Leg"
           git config user.email "actions@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "Empty Leg aggiornati"
-          git pull --rebase -q origin main
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Empty Leg aggiornati"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs -q origin main && git push -q && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+          exit 1
