@@ -31,6 +31,20 @@ jobs:
         env:
           YPJ_KEY: ${{ secrets.YPJ_KEY }}
         run: python scripts/ypj_emptylegs.py update
+      - name: Controllo Community (ore 9, 13, 21 fino al 16/11/2026)
+        id: quando
+        run: |
+          ORA=$(TZ=Europe/Rome date +%H); GIORNO=$(TZ=Europe/Rome date +%Y%m%d)
+          if [ "$GIORNO" -le 20261116 ] && { [ "$ORA" = 09 ] || [ "$ORA" = 13 ] || [ "$ORA" = 21 ] || [ -f run/community_ora.txt ]; }; then
+            rm -f run/community_ora.txt
+            echo "si=1" >> $GITHUB_OUTPUT
+          fi
+      - if: steps.quando.outputs.si == '1'
+        run: pip install -q playwright && python -m playwright install --with-deps chromium
+      - if: steps.quando.outputs.si == '1'
+        env:
+          YPJ_KEY: ${{ secrets.YPJ_KEY }}
+        run: python scripts/community.py controlla
       - name: Salva risultato
         run: |
           git config user.name "YPJ Empty Leg"

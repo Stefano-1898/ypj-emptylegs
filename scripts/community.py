@@ -150,9 +150,75 @@ def main():
         browser.close()
 
 
+# ------------------------------------------------ controllo automatico (sessione salvata)
+
+def norm(x):
+    import unicodedata
+    x = unicodedata.normalize("NFKD", x or "").encode("ascii", "ignore").decode().lower()
+    x = re.sub(r"[^a-z]+", " ", x).strip()
+    alias = {"milano": "milan", "parigi": "paris", "londra": "london", "ginevra": "geneva", "zurigo": "zurich",
+             "nizza": "nice", "roma": "rome", "venezia": "venice", "firenze": "florence", "sevilla": "seville",
+             "muenster": "munster", "palma mallorca": "palma", "palma de mallorca": "palma", "tires": "cascais"}
+    return alias.get(x, x)
+
+
+def estrai_voli(html):
+    pezzi = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', html, re.S)
+    testo = "".join(pezzi).encode().decode("unicode_escape", errors="ignore")
+    i = testo.find('"legs":[')
+    if i < 0:
+        return None
+    voli, _ = json.JSONDecoder().raw_decode(testo[i + 7:])
+    return voli
+
+
+def controlla():
+    import csv
+    if not os.path.exists(SESSIONE):
+        stato("Controllo: nessun accesso salvato.")
+        return
+    open("/tmp/stato.json", "wb").write(f.decrypt(open(SESSIONE, "rb").read()))
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        ctx = browser.new_context(locale="it-IT", storage_state="/tmp/stato.json")
+        page = ctx.new_page()
+        page.goto(URL, wait_until="networkidle")
+        page.wait_for_timeout(3000)
+        voli = estrai_voli(page.content())
+        if voli is None:
+            scatta(page, "controllo_fallito")
+            salva_dump()
+            stato("Controllo automatico NON riuscito: la community chiede di nuovo il codice (accesso scaduto).")
+            browser.close()
+            return
+        ctx.storage_state(path="/tmp/stato.json")
+        open(SESSIONE, "wb").write(f.encrypt(open("/tmp/stato.json", "rb").read()))
+        browser.close()
+    open("secure/community_voli.enc", "wb").write(f.encrypt(json.dumps(voli, ensure_ascii=False).encode()))
+    europa = [v for v in voli if (v.get("from") or {}).get("lon", -999) > -30
+              and not (norm(v["from"]["name"]) == "naples" and (v.get("to") or {}).get("lon", 0) < -30)]
+    tg = []
+    if os.path.exists("data/emptylegs.csv"):
+        for r in csv.DictReader(open("data/emptylegs.csv", encoding="utf-8")):
+            try:
+                g, m, a = map(int, r["data"].split("/"))
+                tg.append((dt.date(a, m, g), norm(r["partenza"]), norm(r["arrivo"])))
+            except Exception:
+                pass
+    uguale = lambda a, b: a == b or (a and b and a.split()[0] == b.split()[0])
+    nuovi = 0
+    for v in europa:
+        d = dt.date.fromisoformat(v["date"])
+        da, a = norm(v["from"]["name"]), norm(v["to"]["name"])
+        if not any(abs((d - td).days) <= 1 and uguale(da, tf) and uguale(a, tt) for td, tf, tt in tg):
+            nuovi += 1
+    stato(f"Controllo automatico OK: accesso valido, {len(voli)} voli in community, "
+          f"{len(europa)} con partenza Europa/Med/Medio Oriente, di cui {nuovi} non presenti su Telegram.")
+
+
 if __name__ == "__main__":
     try:
-        main()
+        controlla() if "controlla" in sys.argv else main()
     except Exception as e:
         import traceback
         log.append(traceback.format_exc())
