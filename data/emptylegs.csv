@@ -1,24 +1,4 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-Benelux,Amsterdam,Shannon,27/10/2026,,Falcon 2000EX EASy,10,12202.8
-Benelux,Amsterdam,London,27/10/2026,,Phenom 300,8,6204
-UK & Irlanda,Blackpool,Cologne,27/10/2026,,Citation XLS,7-8,8946
-Balcani / EST-EU,Bucharest,Ankara,27/10/2026,,Citation XLS+,8,7464
-Europa Centrale,Dusseldorf,Prague,27/10/2026,,Pilatus PC-24,8,8547.6
-Italia,Florence,Nice,27/10/2026,,Pilatus PC-12/47E (NG),6,6825.6
-Europa Centrale,Geneva,Paris,27/10/2026,,Citation Mustang,4,1704
-Europa Centrale,Geneva,Nice,27/10/2026,,Pilatus PC-12/47E (NG),6,6825.6
-Europa Centrale,Geneva,Milan,27/10/2026,,Citation XLS+,7-8,5577.6
-Europa Centrale,Leipzig/Halle,Frankfurt,27/10/2026,,Citation CJ2,6-7,3234
-Europa Centrale,Leipzig/Halle,Bristol,27/10/2026,,Citation CJ2,6-7,8172
-Altre Tratte,Marrakech,Tenerife,27/10/2026,,Challenger 300,7-9,17095.2
-Europa Centrale,Muenster,Manchester,27/10/2026,,Citation XLS,7-8,9418.8
-Europa Centrale,Paris,Geneva,27/10/2026,,Citation CJ2,6,4898.4
-Europa Centrale,Perpignan,Valencia,27/10/2026,,Citation CJ3,6,7665.6
-Europa Centrale,Speyer,Ibiza,27/10/2026,,Citation XLS,7-8,14144.4
-Iberia,Valencia,Tires,27/10/2026,,Phenom 300,6-7,6998.4
-Europa Centrale,Warsaw,Tbilisi,27/10/2026,,Gulfstream G-650ER,13,52492.8
-Europa Centrale,Wroclaw,Zurich,27/10/2026,,Citation M2,5,10034.4
-Europa Centrale,Zurich,Newcastle,27/10/2026,,Pilatus PC-24,8,15841.2
 Europa Centrale,Albert,London,28/10/2026,,Citation Mustang,4,2258.4
 Benelux,Amsterdam,Toulon,28/10/2026,,Pilatus PC-24,6,20703.6
 UK & Irlanda,Birmingham,Frankfurt,28/10/2026,,Citation M2,6,6402
