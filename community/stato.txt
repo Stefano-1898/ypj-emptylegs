@@ -1,3 +1,4 @@
+27/10/2026 21:16:38 — Controllo automatico OK: accesso valido, 281 voli in community, 103 con partenza Europa/Med/Medio Oriente, di cui 33 non presenti su Telegram.
 27/10/2026 13:56:40 — Controllo automatico OK: accesso valido, 257 voli in community, 93 con partenza Europa/Med/Medio Oriente, di cui 26 non presenti su Telegram.
 27/10/2026 13:43:13 — Accesso eseguito, pagina voli salvata (1641 caratteri).
 27/10/2026 13:32:55 — Codice richiesto: controlla l'email e comunica il codice a Claude (attesa max 15 minuti).
