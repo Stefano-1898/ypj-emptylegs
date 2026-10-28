@@ -1,3 +1,4 @@
+28/10/2026 22:15 — Controllo eseguito, nessuna novità: 121 voli futuri.
 28/10/2026 21:15 — Controllo eseguito, nessuna novità: 121 voli futuri.
 28/10/2026 20:15 — Controllo eseguito, nessuna novità: 121 voli futuri.
 28/10/2026 19:15 — Controllo eseguito, nessuna novità: 121 voli futuri.
@@ -57,4 +58,3 @@
 26/10/2026 17:15 — Controllo eseguito, nessuna novità: 119 voli futuri.
 26/10/2026 16:15 — Controllo eseguito, nessuna novità: 119 voli futuri.
 26/10/2026 15:15 — Aggiornato: 119 voli futuri (messaggi letti 800, non riconosciuti 0). Città nuove riconosciute: 1.
-26/10/2026 14:15 — Aggiornato: 112 voli futuri (messaggi letti 800, non riconosciuti 0).
