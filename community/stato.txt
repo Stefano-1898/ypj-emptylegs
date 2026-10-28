@@ -1,3 +1,5 @@
+28/10/2026 09:01:52 — Verifica prezzi: 274 voli su 274 hanno un prezzo. Campi: price. Esempio: Pierre -> Phoenix 2026-10-28: price=15640. Campi del volo: aircraft, aircraftClass, date, dateTo, departsAt, duration, free, from, fromAirport, id, isNew, price, regions, seats, seatsMax, time, to, toAirport, whatsapp
+28/10/2026 09:01:52 — Controllo automatico OK: accesso valido, 274 voli in community, 90 con partenza Europa/Med/Medio Oriente, di cui 31 non presenti su Telegram.
 27/10/2026 21:16:38 — Controllo automatico OK: accesso valido, 281 voli in community, 103 con partenza Europa/Med/Medio Oriente, di cui 33 non presenti su Telegram.
 27/10/2026 13:56:40 — Controllo automatico OK: accesso valido, 257 voli in community, 93 con partenza Europa/Med/Medio Oriente, di cui 26 non presenti su Telegram.
 27/10/2026 13:43:13 — Accesso eseguito, pagina voli salvata (1641 caratteri).
