@@ -1,28 +1,4 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-Europa Centrale,Albert,London,28/10/2026,,Citation Mustang,4,2258.4
-Benelux,Amsterdam,Toulon,28/10/2026,,Pilatus PC-24,6,20703.6
-UK & Irlanda,Birmingham,Frankfurt,28/10/2026,,Citation M2,6,6402
-Balcani / EST-EU,Bodrum,Rome,28/10/2026,,Global Express XRS,13,32431.2
-Altre Tratte,Cairo,Rome,28/10/2026,,Global Express XRS,13,36812.4
-Europa Centrale,Dortmund,Brussels,28/10/2026,,Phenom 300,7,4885.2
-Europa Centrale,Dusseldorf,Luxembourg,28/10/2026,,Citation CJ1,5,5242.8
-Europa Centrale,Dusseldorf,Toulon,28/10/2026,,Pilatus PC-24,8,18832.8
-Italia,Florence,Geneva,28/10/2026,,Citation M2,6,7064.4
-Europa Centrale,Friedrichshafen,Vienna,28/10/2026,,Phenom 300E,9,6021.6
-Europa Centrale,Geneva,Frankfurt,28/10/2026,,Citation M2,6,6567.6
-UK & Irlanda,Jersey,Siegen,28/10/2026,,Citation Mustang,4-6,1704
-Europa Centrale,Katowice,Ingolstadt-manching,28/10/2026,,Citation Mustang,4,1704
-Benelux,Lelystad,Westerland,28/10/2026,,Citation Mustang,4,1704
-UK & Irlanda,London,Dijon,28/10/2026,,Beechjet 400A,7,8185.2
-Altre Tratte,Marrakech,Tenerife,28/10/2026,,Challenger 300,7-9,17095.2
-Italia,Milan,St Moritz,28/10/2026,,Pilatus PC-24,8,6865.2
-Europa Centrale,Munich,Geneva,28/10/2026,,Phenom 300E,4-6,7940.4
-Europa Centrale,Vienna,Frankfurt,28/10/2026,,Citation Mustang,4,1704
-Europa Centrale,Vienna,Palma Mallorca,28/10/2026,,Pilatus PC-24,6,16075.2
-Europa Centrale,Vienna,Hamburg,28/10/2026,,Pilatus PC-24,6,10230
-Europa Centrale,Warsaw,Palma Mallorca,28/10/2026,,Pilatus PC-24,8,25004.4
-Europa Centrale,Zurich,Toulon,28/10/2026,,Pilatus PC-24,8,7333.2
-Europa Centrale,Zurich,Friedrichshafen,28/10/2026,,Falcon 2000EX EASy,10,9373.2
 Altre Tratte,Alta,Amsterdam,29/10/2026,,Citation CJ3,6,24418.8
 Grecia,Athens,Bucharest,29/10/2026,,Challenger 300,9,9109.2
 Europa Centrale,Basel,Milan,29/10/2026,,Pilatus PC-24,8,9483.6
