@@ -214,6 +214,34 @@ def controlla():
             nuovi += 1
     stato(f"Controllo automatico OK: accesso valido, {len(voli)} voli in community, "
           f"{len(europa)} con partenza Europa/Med/Medio Oriente, di cui {nuovi} non presenti su Telegram.")
+    verifica_prezzi(voli)
+
+
+def verifica_prezzi(voli):
+    # Verifica una tantum: il file scaricato contiene i prezzi?
+    try:
+        def cerca(o, via=""):
+            if isinstance(o, dict):
+                for k, val in o.items():
+                    p = f"{via}.{k}" if via else k
+                    if any(s in k.lower() for s in ("price", "prezzo", "amount", "cost", "eur")) \
+                            and isinstance(val, (int, float, str)) and str(val).strip() not in ("", "0"):
+                        yield p, val
+                    yield from cerca(val, p)
+        con, campi, esempio = 0, set(), None
+        for v in voli:
+            trovati = list(cerca(v))
+            if trovati:
+                con += 1
+                campi.update(k for k, _ in trovati)
+                if esempio is None:
+                    esempio = (f"{(v.get('from') or {}).get('name')} -> {(v.get('to') or {}).get('name')} "
+                               f"{v.get('date')}: " + ", ".join(f"{k}={val}" for k, val in trovati[:3]))
+        chiavi = sorted({k for v in voli if isinstance(v, dict) for k in v})
+        stato(f"Verifica prezzi: {con} voli su {len(voli)} hanno un prezzo. Campi: {', '.join(sorted(campi)) or 'nessuno'}. "
+              f"Esempio: {esempio or '-'}. Campi del volo: {', '.join(chiavi)[:300]}")
+    except Exception as e:
+        stato(f"Verifica prezzi: errore {type(e).__name__}: {str(e)[:150]}")
 
 
 if __name__ == "__main__":
