@@ -38,7 +38,7 @@ STATO_LOGIN = "secure/login_state.enc"
 SESSIONE = "secure/session.enc"
 CODICE = "login/code.enc"             # codice ricevuto su Telegram (cifrato)
 RICHIESTA = "login/richiesta.txt"     # file che avvia la richiesta del codice
-CSV_VOLI = "data/emptylegs.csv"
+CSV_VOLI = "data/telegram.csv"      # voli da Telegram (poi uniti alla Community in data/emptylegs.csv)
 CITTA = "data/citta.json"              # città già riconosciute (paese) — si arricchisce da solo
 CORREZIONI = "data/correzioni_citta.json"   # eventuali correzioni manuali: {"nome città": "IT"}
 VERIFICATE = "data/citta_verificate.json"   # elenco città → area (lo stesso del sito), consultato per primo
@@ -48,12 +48,12 @@ EUROPA_MED = "gb,ie,im,je,gg,it,sm,va,fr,mc,ch,li,at,de,cz,pl,hu,sk,gr,hr,si,rs,
 AREE_PAESI = {
     "UK & Irlanda": "GB IE IM JE GG",
     "Italia": "IT SM VA",
-    "Europa Centrale": "FR MC CH LI AT DE CZ PL HU SK",
+    "Europa Centrale": "FR MC CH LI AT DE CZ PL HU SK DK NO SE FI IS",
     "Grecia": "GR",
     "Balcani / EST-EU": "HR SI RS BA ME MK AL XK BG RO MD UA BY TR CY MT EE LV LT",
     "Iberia": "ES PT AD GI",
     "Benelux": "BE NL LU",
-    "UAE": "AE",
+    "UAE": "AE SA QA BH KW OM JO LB IL EG MA TN DZ LY",
     "USA": "US",
 }
 PAESE_AREA = {c: area for area, codici in AREE_PAESI.items() for c in codici.split()}

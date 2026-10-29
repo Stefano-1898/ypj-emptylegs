@@ -198,8 +198,9 @@ def controlla():
     europa = [v for v in voli if (v.get("from") or {}).get("lon", -999) > -30
               and not (norm(v["from"]["name"]) == "naples" and (v.get("to") or {}).get("lon", 0) < -30)]
     tg = []
-    if os.path.exists("data/emptylegs.csv"):
-        for r in csv.DictReader(open("data/emptylegs.csv", encoding="utf-8")):
+    fonte_tg = "data/telegram.csv" if os.path.exists("data/telegram.csv") else "data/emptylegs.csv"
+    if os.path.exists(fonte_tg):
+        for r in csv.DictReader(open(fonte_tg, encoding="utf-8")):
             try:
                 g, m, a = map(int, r["data"].split("/"))
                 tg.append((dt.date(a, m, g), norm(r["partenza"]), norm(r["arrivo"])))
@@ -216,8 +217,6 @@ def controlla():
             lista_nuovi.append(v)
     stato(f"Controllo automatico OK: accesso valido, {len(voli)} voli in community, "
           f"{len(europa)} con partenza Europa/Med/Medio Oriente, di cui {nuovi} non presenti su Telegram.")
-    verifica_prezzi(voli)
-    distribuzione(lista_nuovi)
 
 
 def distribuzione(voli):

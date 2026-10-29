@@ -1,6 +1,6 @@
 name: Aggiorna Empty Leg
 
-# Avviato ogni ora (minuto 15) da cron-job.org. L'orario interno di GitHub è stato tolto
+# Avviato ogni ora (minuto 15) da cron-job.org: legge Telegram e Community e crea l'elenco unico. L'orario interno di GitHub è stato tolto
 # perché partiva in modo irregolare e si sovrapponeva. Si può avviare anche caricando run/aggiorna.txt.
 on:
   workflow_dispatch:
@@ -27,24 +27,23 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q telethon cryptography
-      - name: Leggi il gruppo e aggiorna i voli
+      - name: Telegram
+        continue-on-error: true
         env:
           YPJ_KEY: ${{ secrets.YPJ_KEY }}
         run: python scripts/ypj_emptylegs.py update
-      - name: Controllo Community (ore 9, 13, 21 fino al 16/11/2026)
-        id: quando
-        run: |
-          ORA=$(TZ=Europe/Rome date +%H); GIORNO=$(TZ=Europe/Rome date +%Y%m%d)
-          if [ "$GIORNO" -le 20261116 ] && { [ "$ORA" = 09 ] || [ "$ORA" = 13 ] || [ "$ORA" = 21 ] || [ -f run/community_ora.txt ]; }; then
-            rm -f run/community_ora.txt
-            echo "si=1" >> $GITHUB_OUTPUT
-          fi
-      - if: steps.quando.outputs.si == '1'
+      - name: Prepara browser per la Community
+        continue-on-error: true
         run: pip install -q playwright && python -m playwright install --with-deps chromium
-      - if: steps.quando.outputs.si == '1'
+      - name: Community
+        continue-on-error: true
         env:
           YPJ_KEY: ${{ secrets.YPJ_KEY }}
         run: python scripts/community.py controlla
+      - name: Elenco unico (Telegram + Community, senza doppioni)
+        env:
+          YPJ_KEY: ${{ secrets.YPJ_KEY }}
+        run: python scripts/unisci.py
       - name: Salva risultato
         run: |
           git config user.name "YPJ Empty Leg"
