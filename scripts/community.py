@@ -207,14 +207,44 @@ def controlla():
                 pass
     uguale = lambda a, b: a == b or (a and b and a.split()[0] == b.split()[0])
     nuovi = 0
+    lista_nuovi = []
     for v in europa:
         d = dt.date.fromisoformat(v["date"])
         da, a = norm(v["from"]["name"]), norm(v["to"]["name"])
         if not any(abs((d - td).days) <= 1 and uguale(da, tf) and uguale(a, tt) for td, tf, tt in tg):
             nuovi += 1
+            lista_nuovi.append(v)
     stato(f"Controllo automatico OK: accesso valido, {len(voli)} voli in community, "
           f"{len(europa)} con partenza Europa/Med/Medio Oriente, di cui {nuovi} non presenti su Telegram.")
     verifica_prezzi(voli)
+    distribuzione(lista_nuovi)
+
+
+def distribuzione(voli):
+    # Riepilogo (solo conteggi) di dove partono i voli Community non presenti su Telegram.
+    try:
+        from collections import Counter
+        paesi = {}
+        for nome in ("data/citta_paesi.json", "data/citta.json"):
+            if os.path.exists(nome):
+                paesi.update({norm(k): v for k, v in json.load(open(nome, encoding="utf-8")).items()})
+
+        def paese(o):
+            o = o or {}
+            for k in ("country", "countryCode", "country_code", "iso2"):
+                if isinstance(o.get(k), str) and o[k].strip():
+                    return o[k].strip()
+            return paesi.get(norm(o.get("name")), "?")
+
+        per_paese = Counter(paese(v.get("from")) for v in voli)
+        per_citta = Counter((v.get("from") or {}).get("name") or "?" for v in voli)
+        per_arrivo = Counter(paese(v.get("to")) for v in voli)
+        chiavi = sorted({k for v in voli for k in (v.get("from") or {})})
+        fmt = lambda c: ", ".join(f"{k} {n}" for k, n in c.most_common())
+        stato(f"Distribuzione voli Community non su Telegram ({len(voli)}) — partenza per paese: {fmt(per_paese)} | "
+              f"partenza per citta: {fmt(per_citta)} | arrivo per paese: {fmt(per_arrivo)} | campi partenza: {', '.join(chiavi)}")
+    except Exception as e:
+        stato(f"Distribuzione: errore {type(e).__name__}: {str(e)[:150]}")
 
 
 def verifica_prezzi(voli):
