@@ -1,5 +1,5 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-Altre Tratte,Alta,Amsterdam,29/10/2026,,Citation CJ3,6,24418.8
+Europa Centrale,Alta,Amsterdam,29/10/2026,,Citation CJ3,6,24418.8
 Grecia,Athens,Bucharest,29/10/2026,,Challenger 300,9,9109.2
 Europa Centrale,Basel,Milan,29/10/2026,,Pilatus PC-24,8,9483.6
 Europa Centrale,Berlin,Munich,29/10/2026,,Citation XLS,7-8,4536
@@ -16,7 +16,7 @@ UK & Irlanda,London,Nice,29/10/2026,,Phenom 300,4-6,10028.4
 UK & Irlanda,London,Malaga,29/10/2026,,Phenom 300,4-6,15319.2
 Iberia,Madrid,Antwerp,29/10/2026,,Challenger 605,12,26862
 UK & Irlanda,Manchester,Munich,29/10/2026,,Citation XLS,7-8,11781.6
-Altre Tratte,Marrakech,Sevilla,29/10/2026,,Challenger 300,7-9,14289.6
+UAE,Marrakech,Sevilla,29/10/2026,,Challenger 300,7-9,14289.6
 Italia,Milan,Karlsruhe/Baden Baden,29/10/2026,,Phenom 300,4-6,4869.6
 Europa Centrale,Montpellier,Geneva,29/10/2026,,Citation Mustang,4-6,2258.4
 Europa Centrale,Munich,Geneva,29/10/2026,,Phenom 300E,4-6,7657.2
@@ -49,7 +49,7 @@ Iberia,Valence,Palermo,30/10/2026,,Phenom 300E,9,10196.4
 Benelux,Amsterdam,Brussels,31/10/2026,,Citation CJ3,6,3962.4
 Iberia,Faro,Alicante,31/10/2026,,Beechjet 400A,7,8185.2
 Europa Centrale,Hamburg,London,31/10/2026,,Beechjet 400A,7,10197.6
-Altre Tratte,Helsinki,Amsterdam,31/10/2026,,Citation CJ3,6,17636.4
+Europa Centrale,Helsinki,Amsterdam,31/10/2026,,Citation CJ3,6,17636.4
 UK & Irlanda,Jersey,Dole,31/10/2026,,Pilatus PC-24,6,14157.6
 UK & Irlanda,Leeds,Memmingen,31/10/2026,,Challenger 300,7-9,18964.8
 Europa Centrale,Leipzig/Halle,Liverpool,31/10/2026,,Pilatus PC-24,8,21638.4
@@ -64,7 +64,7 @@ Balcani / EST-EU,Belgrade,Lyon,01/11/2026,,Citation XLS+,7-8,16467.6
 Balcani / EST-EU,Belgrade,Athens,01/11/2026,,Citation XLS,7-8,11022
 UK & Irlanda,Birmingham,Ajaccio,01/11/2026,,Citation M2,5,15168
 Balcani / EST-EU,Bucharest,Istanbul,01/11/2026,,Citation XLS+,8,7314
-Altre Tratte,Copenhagen,Bolzano,01/11/2026,,Pilatus PC-24,8,20703.6
+Europa Centrale,Copenhagen,Bolzano,01/11/2026,,Pilatus PC-24,8,20703.6
 Europa Centrale,Dusseldorf,Brussels,01/11/2026,,Pilatus PC-24,8,7612.8
 Iberia,Faro,Jerez De La Frontera,01/11/2026,,Pilatus PC-24,8,7612.8
 Europa Centrale,Geneva,Munich,01/11/2026,,Citation CJ4 Gen2,4-6,7201.2
