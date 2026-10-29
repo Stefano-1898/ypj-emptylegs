@@ -1,6 +1,7 @@
 name: Aggiorna Empty Leg
 
-# Avviato ogni ora (minuto 15) da cron-job.org: legge Telegram e Community e crea l'elenco unico. L'orario interno di GitHub è stato tolto
+# Avviato ogni ora (minuto 15) da cron-job.org, ma lavora solo ogni 2 ore dalle 07:15 all'01:15 (ora italiana):
+# legge Telegram e Community e crea l'elenco unico. L'orario interno di GitHub è stato tolto
 # perché partiva in modo irregolare e si sovrapponeva. Si può avviare anche caricando run/aggiorna.txt.
 on:
   workflow_dispatch:
@@ -20,31 +21,46 @@ jobs:
   aggiorna:
     runs-on: ubuntu-latest
     steps:
+      - name: Orario consentito? (ogni 2 ore dalle 07 alle 01, ora italiana)
+        id: orario
+        run: |
+          ORA=$(TZ=Europe/Rome date +%H)
+          case "$ORA" in 07|09|11|13|15|17|19|21|23|01) echo "ok=1" >> $GITHUB_OUTPUT ;; *)
+            if [ "${{ github.event_name }}" = "push" ]; then echo "ok=1" >> $GITHUB_OUTPUT; else echo "Fuori orario ($ORA): nessun aggiornamento."; fi ;;
+          esac
       - uses: actions/checkout@v5
+        if: steps.orario.outputs.ok == '1'
         with:
           ref: main
       - uses: actions/setup-python@v6
+        if: steps.orario.outputs.ok == '1'
         with:
           python-version: "3.12"
       - run: pip install -q telethon cryptography
+        if: steps.orario.outputs.ok == '1'
       - name: Telegram
+        if: steps.orario.outputs.ok == '1'
         continue-on-error: true
         env:
           YPJ_KEY: ${{ secrets.YPJ_KEY }}
         run: python scripts/ypj_emptylegs.py update
       - name: Prepara browser per la Community
+        if: steps.orario.outputs.ok == '1'
         continue-on-error: true
         run: pip install -q playwright && python -m playwright install --with-deps chromium
       - name: Community
+        if: steps.orario.outputs.ok == '1'
         continue-on-error: true
         env:
           YPJ_KEY: ${{ secrets.YPJ_KEY }}
         run: python scripts/community.py controlla
       - name: Elenco unico (Telegram + Community, senza doppioni)
+        if: steps.orario.outputs.ok == '1'
         env:
           YPJ_KEY: ${{ secrets.YPJ_KEY }}
         run: python scripts/unisci.py
       - name: Salva risultato
+        if: steps.orario.outputs.ok == '1'
         run: |
           git config user.name "YPJ Empty Leg"
           git config user.email "actions@users.noreply.github.com"
