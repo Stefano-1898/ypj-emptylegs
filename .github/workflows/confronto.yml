@@ -1,0 +1,24 @@
+name: Confronto prezzi (una tantum)
+on:
+  push:
+    paths: ["run/confronto.txt"]
+permissions:
+  contents: write
+concurrency:
+  group: telegram
+  cancel-in-progress: false
+jobs:
+  confronto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with: {ref: main}
+      - uses: actions/setup-python@v6
+        with: {python-version: "3.12"}
+      - run: pip install -q cryptography
+      - env: {YPJ_KEY: "${{ secrets.YPJ_KEY }}"}
+        run: python scripts/confronto_prezzi.py
+      - run: |
+          git config user.name "YPJ Empty Leg"; git config user.email "actions@users.noreply.github.com"
+          git add -A; git commit -q -m "Confronto prezzi Telegram/Community"
+          for i in 1 2 3; do git pull --rebase -X theirs -q origin main && git push -q && exit 0; sleep 5; done; exit 1
