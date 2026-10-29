@@ -1,0 +1,95 @@
+29/10/2026 09:59 UTC
+Voli community: 299  Telegram: 97  Coppie: 54
+29/10/2026 Frankfurt->Brussels Global 5000 | TG 13332 EUR, posti 12-19, ora "" | COM 13332 (1.000), Global 5000, posti 14, ora 19:00, departsAt 2026-10-29T18:00:00+00:00, free False
+29/10/2026 London->Malaga Phenom 300 | TG 15319.2 EUR, posti 4-6, ora "" | COM 17376 (1.134), Phenom 300, posti 8, ora 16:15, departsAt 2026-10-29T16:15:00+00:00, free False
+29/10/2026 Milan->Karlsruhe/Baden Baden Phenom 300 | TG 4869.6 EUR, posti 4-6, ora "" | COM 4870 (1.000), Phenom 300, posti 8, ora 18:30, departsAt 2026-10-29T17:30:00+00:00, free False
+29/10/2026 Sibiu->Bucharest HondaJet | TG 4094.4 EUR, posti 5, ora "" | COM 4094 (1.000), HondaJet, posti 5, ora 18:00, departsAt 2026-10-29T16:00:00+00:00, free False
+30/10/2026 Amsterdam->Antwerp Citation CJ3 | TG 3962.4 EUR, posti 6, ora "" | COM 3962 (1.000), Citation CJ3, posti 6, ora 16:15, departsAt 2026-10-30T15:15:00+00:00, free False
+30/10/2026 Ankara->Bucharest Citation XLS+ | TG 9708 EUR, posti 8, ora "" | COM 9708 (1.000), Citation XLS+, posti 8, ora 14:15, departsAt 2026-10-30T11:15:00+00:00, free False
+30/10/2026 Berlin->Dusseldorf Pilatus PC-24 | TG 13222.8 EUR, posti 8, ora "" | COM 7426 (0.562), Pilatus PC-24, posti 8, ora 15:15, departsAt 2026-10-30T14:15:00+00:00, free False
+30/10/2026 Florence->Chisinau Phenom 300E | TG 14923.2 EUR, posti 9, ora "" | COM 14923 (1.000), Phenom 300E, posti 9, ora 15:45, departsAt 2026-10-30T14:45:00+00:00, free False
+30/10/2026 Geneva->Palma Mallorca Phenom 300 | TG 11484 EUR, posti 7, ora "" | COM 7979 (0.695), Phenom 300, posti 9, ora 10:00, departsAt 2026-10-30T09:00:00+00:00, free False
+30/10/2026 Malaga->Bucharest Gulfstream G-200 | TG 30987.6 EUR, posti 10, ora "" | COM 30988 (1.000), Gulfstream G-200, posti 10, ora 14:00, departsAt 2026-10-30T13:00:00+00:00, free False
+30/10/2026 Milan->Zurich Citation M2 | TG 3102 EUR, posti 6, ora "" | COM 3102 (1.000), Citation M2, posti 6, ora 10:15, departsAt 2026-10-30T09:15:00+00:00, free False
+30/10/2026 Paris->Palma Mallorca Pilatus PC-24 | TG 22845.6 EUR, posti 8, ora "" | COM 14244 (0.623), Pilatus PC-24, posti 8, ora 13:30, departsAt 2026-10-30T12:30:00+00:00, free False
+30/10/2026 Salzburg->Friedrichshafen Phenom 300 | TG 5338.8 EUR, posti 4-6, ora "" | COM 5339 (1.000), Phenom 300, posti 8, ora 16:00, departsAt 2026-10-30T15:00:00+00:00, free False
+30/10/2026 Tires->Tenerife Challenger 300 | TG 24574.8 EUR, posti 7-9, ora "" | COM 24575 (1.000), Challenger 300, posti 8, ora 16:00, departsAt 2026-10-30T16:00:00+00:00, free False
+30/10/2026 Valence->Palermo Phenom 300E | TG 10196.4 EUR, posti 9, ora "" | COM 10196 (1.000), Phenom 300E, posti 9, ora 10:00, departsAt 2026-10-30T09:00:00+00:00, free False
+31/10/2026 Amsterdam->Brussels Citation CJ3 | TG 3962.4 EUR, posti 6, ora "" | COM 3962 (1.000), Citation CJ3, posti 6, ora 07:00, departsAt 2026-10-31T06:00:00+00:00, free False
+31/10/2026 Helsinki->Amsterdam Citation CJ3 | TG 17636.4 EUR, posti 6, ora "" | COM 17636 (1.000), Citation CJ3, posti 6, ora 13:15, departsAt 2026-10-31T11:15:00+00:00, free False
+31/10/2026 Leeds->Memmingen Challenger 300 | TG 18964.8 EUR, posti 7-9, ora "" | COM 18965 (1.000), Challenger 300, posti 8, ora 15:30, departsAt 2026-10-31T15:30:00+00:00, free False
+31/10/2026 Leipzig/Halle->Liverpool Pilatus PC-24 | TG 21638.4 EUR, posti 8, ora "" | COM 13037 (0.602), Pilatus PC-24, posti 8, ora 09:00, departsAt 2026-10-31T08:00:00+00:00, free False
+31/10/2026 London->Munich Citation XLS | TG 10364.4 EUR, posti 7-8, ora "" | COM 7294 (0.704), Citation XLS, posti 8, ora 09:30, departsAt 2026-10-31T09:30:00+00:00, free False
+31/10/2026 Milan->Palma Mallorca Phenom 300 | TG 12144 EUR, posti 7, ora "" | COM 10660 (0.878), Phenom 300, posti 8, ora 15:30, departsAt 2026-10-31T14:30:00+00:00, free False
+31/10/2026 Nice->Bologna Citation CJ1 | TG 6273.6 EUR, posti 6, ora "" | COM 5406 (0.862), Citation CJ1, posti 6, ora 17:30, departsAt 2026-10-31T16:30:00+00:00, free False
+31/10/2026 Tampa->Katowice Gulfstream G-650ER | TG 170798.4 EUR, posti 13, ora "" | COM 170798 (1.000), Gulfstream G-650ER, posti 13, ora 10:00, departsAt 2026-10-31T14:00:00+00:00, free False
+31/10/2026 Zurich->Perugia Pilatus PC-24 | TG 9950.4 EUR, posti 8, ora "" | COM 8548 (0.859), Pilatus PC-24, posti 8, ora 07:15, departsAt 2026-10-31T06:15:00+00:00, free False
+01/11/2026 Belgrade->Lyon Citation XLS+ | TG 16467.6 EUR, posti 7-8, ora "" | COM 16468 (1.000), Citation XLS+, posti 9, ora 09:45, departsAt 2026-11-01T08:45:00+00:00, free False
+01/11/2026 Belgrade->Athens Citation XLS | TG 11022 EUR, posti 7-8, ora "" | COM 11022 (1.000), Citation XLS, posti 9, ora 13:30, departsAt 2026-11-01T12:30:00+00:00, free False
+01/11/2026 Birmingham->Ajaccio Citation M2 | TG 15168 EUR, posti 5, ora "" | COM 15168 (1.000), Citation M2, posti 6, ora 08:45, departsAt 2026-11-01T08:45:00+00:00, free False
+01/11/2026 Bucharest->Istanbul Citation XLS+ | TG 7314 EUR, posti 8, ora "" | COM 7314 (1.000), Citation XLS+, posti 8, ora 16:00, departsAt 2026-11-01T14:00:00+00:00, free False
+01/11/2026 Copenhagen->Bolzano Pilatus PC-24 | TG 20703.6 EUR, posti 8, ora "" | COM 20704 (1.000), Pilatus PC-24, posti 8, ora 13:00, departsAt 2026-11-01T12:00:00+00:00, free False
+01/11/2026 Dusseldorf->Brussels Pilatus PC-24 | TG 7612.8 EUR, posti 8, ora "" | COM 7613 (1.000), Pilatus PC-24, posti 8, ora 10:15, departsAt 2026-11-01T09:15:00+00:00, free False
+01/11/2026 Geneva->Munich Citation CJ4 Gen2 | TG 7201.2 EUR, posti 4-6, ora "" | COM 7201 (1.000), Citation CJ4 Gen2, posti 8, ora 10:45, departsAt 2026-11-01T09:45:00+00:00, free False
+01/11/2026 Jerez De La Frontera->Marrakech Beechjet 400A | TG 8185.2 EUR, posti 7, ora "" | COM 8185 (1.000), Beechjet 400A, posti 8, ora 12:00, departsAt 2026-11-01T11:00:00+00:00, free False
+01/11/2026 London->Lyon Citation XLS+ | TG 10418.4 EUR, posti 7-8, ora "" | COM 10418 (1.000), Citation XLS+, posti 9, ora 09:30, departsAt 2026-11-01T09:30:00+00:00, free False
+01/11/2026 Luxembourg->Liverpool Beechjet 400A | TG 14223.6 EUR, posti 7, ora "" | COM 14224 (1.000), Beechjet 400A, posti 8, ora 17:30, departsAt 2026-11-01T16:30:00+00:00, free False
+01/11/2026 Malta->Alghero Falcon 2000LX | TG 14240.4 EUR, posti 9, ora "" | COM 14240 (1.000), Falcon 2000LX, posti 9, ora 18:00, departsAt 2026-11-01T17:00:00+00:00, free False
+01/11/2026 Paderborn->Dusseldorf Phenom 300 | TG 4225.2 EUR, posti 7, ora "" | COM 4225 (1.000), Phenom 300, posti 8, ora 20:45, departsAt 2026-11-01T19:45:00+00:00, free False
+01/11/2026 Paris->Pisa Beechjet 400A | TG 11292 EUR, posti 7, ora "" | COM 11292 (1.000), Beechjet 400A, posti 8, ora 11:00, departsAt 2026-11-01T10:00:00+00:00, free False
+01/11/2026 Zurich->Salerno Pilatus PC-24 | TG 18832.8 EUR, posti 8, ora "" | COM 18833 (1.000), Pilatus PC-24, posti 8, ora 13:45, departsAt 2026-11-01T12:45:00+00:00, free False
+02/11/2026 Berne->Le Mans Gulfstream G-280 | TG 9950.4 EUR, posti 7-9, ora "" | COM 9950 (1.000), Gulfstream G-280, posti 9, ora 12:00, departsAt 2026-11-02T11:00:00+00:00, free False
+02/11/2026 Blackpool->Kortrijk Beechjet 400A | TG 8185.2 EUR, posti 7, ora "" | COM 8185 (1.000), Beechjet 400A, posti 8, ora 15:00, departsAt 2026-11-02T15:00:00+00:00, free False
+02/11/2026 Budapest->Salzburg Citation M2 | TG 6567.6 EUR, posti 5, ora "" | COM 6568 (1.000), Citation M2, posti 6, ora 12:45, departsAt 2026-11-02T11:45:00+00:00, free False
+02/11/2026 Dortmund->Friedrichshafen Phenom 300 | TG 4851.6 EUR, posti 4-6, ora "" | COM 4852 (1.000), Phenom 300, posti 8, ora 11:00, departsAt 2026-11-02T10:00:00+00:00, free False
+02/11/2026 Faro->Jerez De La Frontera Pilatus PC-24 | TG 7612.8 EUR, posti 8, ora "" | COM 7613 (1.000), Pilatus PC-24, posti 8, ora 06:15, departsAt 2026-11-02T06:15:00+00:00, free False
+02/11/2026 Milan->Zurich Citation M2 | TG 4587.6 EUR, posti 5, ora "" | COM 9373 (2.043), Falcon 2000EX EASy, posti 9, ora 09:45, departsAt 2026-11-02T08:45:00+00:00, free False
+02/11/2026 Paderborn->Kassel Phenom 300 | TG 4225.2 EUR, posti 8, ora "" | COM 4225 (1.000), Phenom 300, posti 9, ora 15:00, departsAt 2026-11-02T14:00:00+00:00, free False
+02/11/2026 Rotterdam->Paris Pilatus PC-24 | TG 10418.4 EUR, posti 8, ora "" | COM 10418 (1.000), Pilatus PC-24, posti 8, ora 07:30, departsAt 2026-11-02T06:30:00+00:00, free False
+03/11/2026 Amsterdam->Perpignan Citation CJ3 | TG 12714 EUR, posti 6, ora "" | COM 12714 (1.000), Citation CJ3, posti 6, ora 11:30, departsAt 2026-11-03T10:30:00+00:00, free False
+03/11/2026 Muenster->Luxembourg Citation XLS+ | TG 6111.6 EUR, posti 7-8, ora "" | COM 6112 (1.000), Citation XLS+, posti 9, ora 05:30, departsAt 2026-11-03T04:30:00+00:00, free False
+03/11/2026 Nice->Catania Citation CJ1 | TG 14673.6 EUR, posti 5, ora "" | COM 14674 (1.000), Citation CJ1, posti 5, ora 08:30, departsAt 2026-11-03T07:30:00+00:00, free False
+03/11/2026 Paderborn->Cardiff Phenom 300 | TG 12804 EUR, posti 7, ora "" | COM 12804 (1.000), Phenom 300, posti 9, ora 15:00, departsAt 2026-11-03T14:00:00+00:00, free False
+03/11/2026 Paris->Zurich Citation CJ2+ | TG 8178 EUR, posti 6, ora "" | COM 8178 (1.000), Citation CJ2+, posti 6, ora 06:45, departsAt 2026-11-03T05:45:00+00:00, free False
+03/11/2026 Swidnik->Amsterdam Citation XLS | TG 14144.4 EUR, posti 7-8, ora "" | COM 14144 (1.000), Citation XLS, posti 9, ora 08:00, departsAt 2026-11-03T07:00:00+00:00, free False
+04/11/2026 Amsterdam->Speyer Citation XLS | TG 6584.4 EUR, posti 7-8, ora "" | COM 6584 (1.000), Citation XLS, posti 9, ora 12:00, departsAt 2026-11-04T11:00:00+00:00, free False
+04/11/2026 Ibiza->Dortmund Phenom 300 | TG 10968 EUR, posti 4-6, ora "" | COM 10968 (1.000), Phenom 300, posti 8, ora 13:00, departsAt 2026-11-04T12:00:00+00:00, free False
+
+Esempio volo community:
+{
+ "id": "m-ee7124d0-1896-485b-aa61-69de9213c4ee",
+ "date": "2026-10-29",
+ "dateTo": "2026-10-30",
+ "time": "",
+ "fromAirport": "Cleveland/Hopkins International",
+ "toAirport": "Indianapolis International",
+ "from": {
+  "name": "Cleveland",
+  "label": "Cleveland",
+  "country": "US",
+  "lat": 41.41,
+  "lon": -81.855
+ },
+ "to": {
+  "name": "Indianapolis",
+  "label": "Indianapolis",
+  "country": "US",
+  "lat": 39.71666667,
+  "lon": -86.295
+ },
+ "duration": "0:48",
+ "seats": "9",
+ "seatsMax": 9,
+ "aircraft": "Hawker 800XP",
+ "aircraftClass": "midsize",
+ "free": false,
+ "price": 5756,
+ "regions": [
+  "nordamerica"
+ ],
+ "isNew": false,
+ "departsAt": "2026-10-30T04:00:00+00:00"
+}
+
+Paesi partenza: [["US", 183], ["DE", 23], ["GB", 15], ["FR", 13], ["CA", 10], ["IT", 9], ["CH", 6], ["ES", 5], ["NL", 5], ["MA", 4], ["RS", 4], ["RO", 3], ["PT", 3], ["AT", 2], ["CZ", 2], ["TR", 1], ["FI", 1], ["MX", 1], ["DK", 1], ["LU", 1], ["MT", 1], ["HR", 1], ["HU", 1], ["PL", 1], ["BE", 1], ["BS", 1], ["KY", 1]]
+Prezzi tipo: [["int", 299]]
