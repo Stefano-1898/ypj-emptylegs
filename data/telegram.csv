@@ -1,35 +1,4 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-Europa Centrale,Alta,Amsterdam,29/10/2026,,Citation CJ3,6,24418.8
-Grecia,Athens,Bucharest,29/10/2026,,Challenger 300,9,9109.2
-Europa Centrale,Basel,Milan,29/10/2026,,Pilatus PC-24,8,9483.6
-Europa Centrale,Berlin,Munich,29/10/2026,,Citation XLS,7-8,4536
-Europa Centrale,Bremen,Newcastle,29/10/2026,,Phenom 300,6-7,7348.8
-Benelux,Brussels,Milan,29/10/2026,,Pilatus PC-24,8,9670.8
-Europa Centrale,Bydgoszcz,Linz,29/10/2026,,Citation Mustang,4-6,1704
-Europa Centrale,Dusseldorf,Luxembourg,29/10/2026,,Citation CJ1,5,5242.8
-Europa Centrale,Frankfurt,Brussels,29/10/2026,,Global 5000,12-19,13332
-Europa Centrale,Frankfurt,Venice,29/10/2026,,Phenom 300E,9,8158.8
-Europa Centrale,Frankfurt,London,29/10/2026,,Global 5000,12-19,14998.8
-Europa Centrale,Geneva,Venice,29/10/2026,,Citation CJ2,6,5562
-UK & Irlanda,London,Milan,29/10/2026,,Pilatus PC-24,8,10933.2
-UK & Irlanda,London,Nice,29/10/2026,,Phenom 300,4-6,10028.4
-UK & Irlanda,London,Malaga,29/10/2026,,Phenom 300,4-6,15319.2
-Iberia,Madrid,Antwerp,29/10/2026,,Challenger 605,12,26862
-UK & Irlanda,Manchester,Munich,29/10/2026,,Citation XLS,7-8,11781.6
-UAE,Marrakech,Sevilla,29/10/2026,,Challenger 300,7-9,14289.6
-Italia,Milan,Karlsruhe/Baden Baden,29/10/2026,,Phenom 300,4-6,4869.6
-Europa Centrale,Montpellier,Geneva,29/10/2026,,Citation Mustang,4-6,2258.4
-Europa Centrale,Munich,Geneva,29/10/2026,,Phenom 300E,4-6,7657.2
-USA,New York,London,29/10/2026,,Gulfstream G-650ER,13,137302.8
-USA,New York,Katowice,29/10/2026,,Gulfstream G-650ER,13,148467.6
-Europa Centrale,Ostrava,Berlin,29/10/2026,,Citation Mustang,4,1704
-Europa Centrale,Pardubice,Athens,29/10/2026,,Phenom 300,7,11814
-Europa Centrale,Paris,London,29/10/2026,,Beechjet 400A,7,6709.2
-Balcani / EST-EU,Sibiu,Bucharest,29/10/2026,,HondaJet,5,4094.4
-Iberia,Tires,Tenerife,29/10/2026,,Challenger 300,7-9,24574.8
-Europa Centrale,Zurich,Friedrichshafen,29/10/2026,,Falcon 2000EX EASy,10,9373.2
-Europa Centrale,Zurich,Milan,29/10/2026,,Citation M2,5,3597.6
-Europa Centrale,Zurich,Nice,29/10/2026,,Citation CJ2,6-7,5412
 Italia,Alghero,Malta,30/10/2026,,Falcon 2000LX,9,12986.4
 Benelux,Amsterdam,Antwerp,30/10/2026,,Citation CJ3,6,3962.4
 Balcani / EST-EU,Ankara,Bucharest,30/10/2026,,Citation XLS+,8,9708
