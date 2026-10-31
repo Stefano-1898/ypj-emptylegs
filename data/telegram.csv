@@ -1,28 +1,4 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-Italia,Alghero,Malta,30/10/2026,,Falcon 2000LX,9,12986.4
-Benelux,Amsterdam,Antwerp,30/10/2026,,Citation CJ3,6,3962.4
-Balcani / EST-EU,Ankara,Bucharest,30/10/2026,,Citation XLS+,8,9708
-Benelux,Antwerp,Dusseldorf,30/10/2026,,Pilatus PC-24,8,4714.8
-Europa Centrale,Augsburg,Geneva,30/10/2026,,Phenom 300E,4-6,7657.2
-Iberia,Barcelona,Bordeaux,30/10/2026,,Citation Mustang,4,1704
-Europa Centrale,Basel,Dusseldorf,30/10/2026,,Pilatus PC-24,8,11352
-Europa Centrale,Berlin,Dusseldorf,30/10/2026,,Pilatus PC-24,8,13222.8
-Europa Centrale,Berlin,Palma Mallorca,30/10/2026,,Pilatus PC-24,6,30987.6
-Italia,Florence,Chisinau,30/10/2026,,Phenom 300E,9,14923.2
-Europa Centrale,Geneva,Munich,30/10/2026,,Citation CJ2+,4-6,7755.6
-Europa Centrale,Geneva,Palma Mallorca,30/10/2026,,Phenom 300,7,11484
-Europa Centrale,Hanover,Malta,30/10/2026,,Falcon 2000LX,9,18525.6
-UK & Irlanda,London,Faro,30/10/2026,,Phenom 300,9,14112
-UK & Irlanda,London,Milan,30/10/2026,,Global 6000,13,14834.4
-Iberia,Malaga,Bucharest,30/10/2026,,Gulfstream G-200,10,30987.6
-Italia,Milan,Zurich,30/10/2026,,Citation M2,6,3102
-Europa Centrale,Paris,Palma Mallorca,30/10/2026,,Pilatus PC-24,8,22845.6
-UAE,Rabat,Malaga,30/10/2026,,Phenom 300,9,4191.6
-Italia,Rome,Santander,30/10/2026,,Citation XLS+,7-8,8356.8
-Europa Centrale,Salzburg,Friedrichshafen,30/10/2026,,Phenom 300,4-6,5338.8
-Europa Centrale,Sion,Girona,30/10/2026,,Phenom 300,7,6838.8
-Iberia,Tires,Tenerife,30/10/2026,,Challenger 300,7-9,24574.8
-Iberia,Valence,Palermo,30/10/2026,,Phenom 300E,9,10196.4
 Benelux,Amsterdam,Dole,31/10/2026,,Pilatus PC-24,8,8547.6
 Benelux,Amsterdam,Brussels,31/10/2026,,Citation CJ3,6,3962.4
 Europa Centrale,Augsburg,Alicante,31/10/2026,,Beechjet 400A,7,20262
