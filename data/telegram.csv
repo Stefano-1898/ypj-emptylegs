@@ -1,32 +1,4 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-Benelux,Amsterdam,Dole,31/10/2026,,Pilatus PC-24,8,8547.6
-Benelux,Amsterdam,Brussels,31/10/2026,,Citation CJ3,6,3962.4
-Europa Centrale,Augsburg,Alicante,31/10/2026,,Beechjet 400A,7,20262
-Balcani / EST-EU,Bucharest,Rhodes,31/10/2026,,Citation XLS+,8,11127.6
-Iberia,Faro,Sevilla,31/10/2026,,Beechjet 400A,7,6171.6
-Iberia,Faro,Alicante,31/10/2026,,Beechjet 400A,7,8185.2
-Europa Centrale,Frankfurt,London,31/10/2026,,Global 5000,12-19,13332
-Europa Centrale,Friedrichshafen,Chisinau,31/10/2026,,Phenom 300E,9,13035.6
-Europa Centrale,Hamburg,London,31/10/2026,,Beechjet 400A,7,10197.6
-Europa Centrale,Helsinki,Amsterdam,31/10/2026,,Citation CJ3,6,17636.4
-UK & Irlanda,Jersey,Dole,31/10/2026,,Pilatus PC-24,6,14157.6
-UK & Irlanda,Leeds,Memmingen,31/10/2026,,Challenger 300,7-9,18964.8
-Europa Centrale,Leipzig/Halle,Liverpool,31/10/2026,,Pilatus PC-24,8,21638.4
-UK & Irlanda,London,Bordeaux,31/10/2026,,Pilatus PC-24,8,9670.8
-UK & Irlanda,London,Munich,31/10/2026,,Citation XLS,7-8,10364.4
-Italia,Milan,Palma Mallorca,31/10/2026,,Phenom 300,7,12144
-Italia,Milan,Dole,31/10/2026,,Pilatus PC-24,8,10605.6
-USA,New York,Katowice,31/10/2026,,Gulfstream G-650ER,13,148467.6
-Europa Centrale,Nice,Bologna,31/10/2026,,Citation CJ1,6,6273.6
-Europa Centrale,Paris,Perugia,31/10/2026,,Pilatus PC-24,8,12140.4
-Europa Centrale,Prague,Faro,31/10/2026,,Phenom 300,6-7,16122
-USA,Tampa,Katowice,31/10/2026,,Gulfstream G-650ER,13,170798.4
-Italia,Turin,Munich,31/10/2026,,Citation Mustang,4,1836
-Italia,Venice,Nador,31/10/2026,,Citation XLS+,7-8,19492.8
-Europa Centrale,Warsaw,London,31/10/2026,,Global 5000,12-19,20551.2
-Europa Centrale,Zurich,Birmingham,31/10/2026,,Citation M2,5,8384.4
-Europa Centrale,Zurich,Ibiza,31/10/2026,,Falcon 2000EX EASy,10,13299.6
-Europa Centrale,Zurich,Perugia,31/10/2026,,Pilatus PC-24,8,9950.4
 Balcani / EST-EU,Belgrade,Lyon,01/11/2026,,Citation XLS+,7-8,16467.6
 Balcani / EST-EU,Belgrade,Athens,01/11/2026,,Citation XLS,7-8,11022
 UK & Irlanda,Birmingham,Ajaccio,01/11/2026,,Citation M2,5,15168
