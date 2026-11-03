@@ -1,35 +1,4 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-Italia,Albenga,London,02/11/2026,,Phenom 300,6-7,8752.8
-Grecia,Athens,Istanbul,02/11/2026,,Pilatus PC-24,8,13222.8
-Europa Centrale,Berlin,Oxford,02/11/2026,,Pilatus PC-24,6,21638.4
-Europa Centrale,Berne,Le Mans,02/11/2026,,Gulfstream G-280,7-9,9950.4
-UK & Irlanda,Blackpool,Kortrijk,02/11/2026,,Beechjet 400A,7,8185.2
-Europa Centrale,Budapest,Salzburg,02/11/2026,,Citation M2,5,6567.6
-Europa Centrale,Dortmund,Friedrichshafen,02/11/2026,,Phenom 300,4-6,4851.6
-Iberia,Faro,Jerez De La Frontera,02/11/2026,,Pilatus PC-24,8,7612.8
-Europa Centrale,Frankfurt,London,02/11/2026,,Pilatus PC-12/47E (NG),6,12487.2
-Europa Centrale,Geneva,Figari,02/11/2026,,Citation Mustang,4,1704
-Europa Centrale,Geneva,Luxembourg,02/11/2026,,Citation XLS,7-8,4647.6
-Europa Centrale,Gray,London,02/11/2026,,Pilatus PC-12/47E (NG),6,12120
-Europa Centrale,Karlsruhe/Baden Baden,Ancona,02/11/2026,,Phenom 300,4-6,7348.8
-Europa Centrale,Karlsruhe/Baden Baden,Perugia,02/11/2026,,Phenom 300,4-6,6865.2
-Europa Centrale,Le Castellet,Kortrijk,02/11/2026,,Pilatus PC-12/47E (NG),8,11431.2
-Europa Centrale,Lyon,Ajaccio,02/11/2026,,Citation Mustang,4,2258.4
-Balcani / EST-EU,Malta,Alghero,02/11/2026,,Falcon 2000LX,9,11418
-Italia,Milan,Zurich,02/11/2026,,Citation M2,5,4587.6
-Italia,Milan,Friedrichshafen,02/11/2026,,Falcon 2000EX EASy,10,9373.2
-Europa Centrale,Nantes,Malaga,02/11/2026,,Challenger 605,12,26288.4
-Europa Centrale,Nice,Alghero,02/11/2026,,Falcon 2000EX EASy,10,9241.2
-Europa Centrale,Paderborn,Kassel,02/11/2026,,Phenom 300,8,4225.2
-Europa Centrale,Paris,Geneva,02/11/2026,,Citation CJ2,4-6,4536
-Europa Centrale,Prague,Straubing,02/11/2026,,Citation Mustang,4,1704
-Europa Centrale,Prague,Paris,02/11/2026,,Pilatus PC-24,6-8,12895.2
-Balcani / EST-EU,Rijeka,Rome,02/11/2026,,Pilatus PC-24,8,11352
-Benelux,Rotterdam,Paris,02/11/2026,,Pilatus PC-24,8,10418.4
-Europa Centrale,Stuttgart,Valencia,02/11/2026,,Citation M2,5,8892
-Europa Centrale,Vienna,Oxford,02/11/2026,,Pilatus PC-24,8,15045.6
-Europa Centrale,Vienna,London,02/11/2026,,Pilatus PC-24,8,26313.6
-Europa Centrale,Zurich,Milan,02/11/2026,,Citation Mustang,4,1836
 Benelux,Amsterdam,Perpignan,03/11/2026,,Citation CJ3,6,12714
 Benelux,Antwerp,Malaga,03/11/2026,,Challenger 605,12,33793.2
 Europa Centrale,Augsburg,Geneva,03/11/2026,,Phenom 300E,4-6,9056.4
