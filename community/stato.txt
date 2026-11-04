@@ -1,3 +1,4 @@
+04/11/2026 01:16:20 — Controllo automatico OK: accesso valido, 304 voli in community, 104 con partenza Europa/Med/Medio Oriente, di cui 68 non presenti su Telegram.
 03/11/2026 23:16:25 — Controllo automatico OK: accesso valido, 290 voli in community, 103 con partenza Europa/Med/Medio Oriente, di cui 65 non presenti su Telegram.
 03/11/2026 21:16:48 — Controllo automatico OK: accesso valido, 286 voli in community, 99 con partenza Europa/Med/Medio Oriente, di cui 59 non presenti su Telegram.
 03/11/2026 19:16:29 — Controllo automatico OK: accesso valido, 291 voli in community, 97 con partenza Europa/Med/Medio Oriente, di cui 58 non presenti su Telegram.
