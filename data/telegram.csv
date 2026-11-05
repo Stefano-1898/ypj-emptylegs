@@ -1,20 +1,4 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-Benelux,Amsterdam,Speyer,04/11/2026,,Citation XLS,7-8,6584.4
-Europa Centrale,Augsburg,Geneva,04/11/2026,,Phenom 300E,4-6,9056.4
-Balcani / EST-EU,Belgrade,Graz,04/11/2026,,Citation XLS,7-8,7998
-Benelux,Brussels,Prague,04/11/2026,,Global 6000,13,14611.2
-Europa Centrale,Geneva,Milan,04/11/2026,,Pilatus PC-24,8,5724
-Iberia,Ibiza,Zurich,04/11/2026,,Pilatus PC-24,8,22572
-Iberia,Ibiza,Dortmund,04/11/2026,,Phenom 300,4-6,10968
-UK & Irlanda,London,Lyon,04/11/2026,,Citation M2,5,9537.6
-Iberia,Madrid,Paris,04/11/2026,,Pilatus PC-24,8,11961.6
-Iberia,Malaga,Milan,04/11/2026,,Pilatus PC-24,8,28183.2
-Italia,Milan,Altenrhein,04/11/2026,,Citation M2,5,4587.6
-Italia,Milan,Zurich,04/11/2026,,Pilatus PC-24,8,8547.6
-Europa Centrale,Nice,Turin,04/11/2026,,Pilatus PC-12/47E (NG),6,5940
-Iberia,Palma Mallorca,Olbia,04/11/2026,,Beechjet 400A,7,7245.6
-Iberia,Palma Mallorca,Stuttgart,04/11/2026,,Citation M2,5,12104.4
-Europa Centrale,Vienna,Zurich,04/11/2026,,Pilatus PC-24,8,14157.6
 Balcani / EST-EU,Belgrade,Graz,05/11/2026,,Citation XLS,7-8,7998
 Europa Centrale,Geneva,Lyon,05/11/2026,,Citation M2,5,4094.4
 Europa Centrale,Graz,Belgrade,05/11/2026,,Citation XLS,7-8,7393.2
