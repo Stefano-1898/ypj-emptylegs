@@ -1,14 +1,4 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-Balcani / EST-EU,Belgrade,Graz,05/11/2026,,Citation XLS,7-8,7998
-Europa Centrale,Geneva,Lyon,05/11/2026,,Citation M2,5,4094.4
-Europa Centrale,Graz,Belgrade,05/11/2026,,Citation XLS,7-8,7393.2
-Balcani / EST-EU,Istanbul,Bucharest,05/11/2026,,Citation XLS+,8,7314
-UK & Irlanda,London,Madrid,05/11/2026,,Citation M2,5,15974.4
-Italia,Milan,Madrid,05/11/2026,,Citation M2,5,15477.6
-Europa Centrale,Nassau,Warsaw,05/11/2026,,Gulfstream G-650ER,13,169533.6
-Europa Centrale,Poznan,Warsaw,05/11/2026,,Challenger 300,4-6,6567.6
-Italia,Rome,Muenster,05/11/2026,,Legacy 650,13,15498
-Italia,Rome,Istanbul,05/11/2026,,Challenger 350,9,29352
 Balcani / EST-EU,Belgrade,Dusseldorf,06/11/2026,,Citation XLS+,7-8,16467.6
 Italia,Florence,Vienna,06/11/2026,,Pilatus PC-24,8,15093.6
 Europa Centrale,Geneva,Vienna,06/11/2026,,Pilatus PC-24,8,17898
