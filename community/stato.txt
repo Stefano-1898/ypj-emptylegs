@@ -1,3 +1,5 @@
+11/11/2026 15:25:53 — Errore: Error: BrowserType.launch: Executable doesn't exist at /home/runner/.cache/ms-playwright/chromium_headless_shell-1254/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════
 11/11/2026 13:16:11 — Controllo automatico OK: accesso valido, 280 voli in community, 83 con partenza Europa/Med/Medio Oriente, di cui 83 non presenti su Telegram.
 11/11/2026 11:16:12 — Controllo automatico OK: accesso valido, 284 voli in community, 82 con partenza Europa/Med/Medio Oriente, di cui 82 non presenti su Telegram.
 11/11/2026 09:16:15 — Controllo automatico OK: accesso valido, 289 voli in community, 83 con partenza Europa/Med/Medio Oriente, di cui 83 non presenti su Telegram.
