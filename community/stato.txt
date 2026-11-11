@@ -1,3 +1,4 @@
+11/11/2026 21:16:18 — Controllo automatico OK: accesso valido, 311 voli in community, 110 con partenza Europa/Med/Medio Oriente, di cui 110 non presenti su Telegram.
 11/11/2026 19:16:13 — Controllo automatico OK: accesso valido, 305 voli in community, 108 con partenza Europa/Med/Medio Oriente, di cui 108 non presenti su Telegram.
 11/11/2026 17:25:55 — Errore: Error: BrowserType.launch: Executable doesn't exist at /home/runner/.cache/ms-playwright/chromium_headless_shell-1254/chrome-headless-shell-linux64/chrome-headless-shell
 ╔════════════════════════════════════
