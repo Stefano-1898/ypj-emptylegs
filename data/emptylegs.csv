@@ -1,7 +1,4 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-USA,Denver,Phoenix,10/11/2026,21:30,Hawker 900XP,8,4658
-USA,Conroe,McKinney,10/11/2026,22:31,Legacy 650,13,8579
-USA,New Orleans,Midland,10/11/2026,,Learjet 60,8,14110
 USA,Houston,Sarasota,11/11/2026,01:18,Citation XLS,9,11176
 USA,Hot Springs,Fort Collins,11/11/2026,01:54,Learjet 60,8,15577
 USA,Palm Springs,Calgary,11/11/2026,02:05,Challenger 350,8,15911

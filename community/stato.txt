@@ -1,3 +1,7 @@
+11/11/2026 01:16:40 — Errore: TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://community.raffaprivatejet.com/voli", waiting until "networkidle"
+
 10/11/2026 23:16:17 — Controllo automatico OK: accesso valido, 301 voli in community, 103 con partenza Europa/Med/Medio Oriente, di cui 103 non presenti su Telegram.
 10/11/2026 21:16:24 — Controllo automatico OK: accesso valido, 305 voli in community, 99 con partenza Europa/Med/Medio Oriente, di cui 99 non presenti su Telegram.
 10/11/2026 19:16:13 — Controllo automatico OK: accesso valido, 297 voli in community, 100 con partenza Europa/Med/Medio Oriente, di cui 100 non presenti su Telegram.
