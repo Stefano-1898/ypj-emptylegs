@@ -1,3 +1,4 @@
+16/11/2026 01:16:24 — Controllo automatico OK: accesso valido, 339 voli in community, 106 con partenza Europa/Med/Medio Oriente, di cui 106 non presenti su Telegram.
 15/11/2026 23:16:12 — Controllo automatico OK: accesso valido, 313 voli in community, 103 con partenza Europa/Med/Medio Oriente, di cui 103 non presenti su Telegram.
 15/11/2026 21:16:09 — Controllo automatico OK: accesso valido, 307 voli in community, 101 con partenza Europa/Med/Medio Oriente, di cui 101 non presenti su Telegram.
 15/11/2026 19:16:35 — Controllo automatico OK: accesso valido, 298 voli in community, 97 con partenza Europa/Med/Medio Oriente, di cui 97 non presenti su Telegram.
@@ -198,4 +199,3 @@ Call log:
 27/10/2026 21:16:38 — Controllo automatico OK: accesso valido, 281 voli in community, 103 con partenza Europa/Med/Medio Oriente, di cui 33 non presenti su Telegram.
 27/10/2026 13:56:40 — Controllo automatico OK: accesso valido, 257 voli in community, 93 con partenza Europa/Med/Medio Oriente, di cui 26 non presenti su Telegram.
 27/10/2026 13:43:13 — Accesso eseguito, pagina voli salvata (1641 caratteri).
-27/10/2026 13:32:55 — Codice richiesto: controlla l'email e comunica il codice a Claude (attesa max 15 minuti).
