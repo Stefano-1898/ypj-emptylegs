@@ -1,3 +1,4 @@
+17/11/2026 09:16:18 — Controllo automatico OK: accesso valido, 291 voli in community, 84 con partenza Europa/Med/Medio Oriente, di cui 84 non presenti su Telegram.
 17/11/2026 07:16:52 — Controllo automatico OK: accesso valido, 299 voli in community, 88 con partenza Europa/Med/Medio Oriente, di cui 88 non presenti su Telegram.
 17/11/2026 01:17:11 — Controllo automatico OK: accesso valido, 311 voli in community, 94 con partenza Europa/Med/Medio Oriente, di cui 94 non presenti su Telegram.
 16/11/2026 23:16:48 — Controllo automatico OK: accesso valido, 291 voli in community, 94 con partenza Europa/Med/Medio Oriente, di cui 94 non presenti su Telegram.
@@ -198,4 +199,3 @@ Call log:
 29/10/2026 09:16:11 — Verifica prezzi: 295 voli su 295 hanno un prezzo. Campi: price. Esempio: Dallas -> San Jose 2026-10-29: price=27364. Campi del volo: aircraft, aircraftClass, date, dateTo, departsAt, duration, free, from, fromAirport, id, isNew, price, regions, seats, seatsMax, time, to, toAirport, whatsapp
 29/10/2026 09:16:11 — Controllo automatico OK: accesso valido, 295 voli in community, 99 con partenza Europa/Med/Medio Oriente, di cui 38 non presenti su Telegram.
 28/10/2026 21:16:14 — Verifica prezzi: 304 voli su 304 hanno un prezzo. Campi: price. Esempio: Green Bay -> Detroit 2026-10-28: price=5990. Campi del volo: aircraft, aircraftClass, date, dateTo, departsAt, duration, free, from, fromAirport, id, isNew, price, regions, seats, seatsMax, time, to, toAirport, whatsapp
-28/10/2026 21:16:14 — Controllo automatico OK: accesso valido, 304 voli in community, 111 con partenza Europa/Med/Medio Oriente, di cui 32 non presenti su Telegram.
