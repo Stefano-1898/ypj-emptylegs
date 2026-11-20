@@ -1,3 +1,5 @@
+20/11/2026 07:17 — Elenco unico: 355 voli (Community 355, Telegram 0, doppioni tolti 0). Per area: USA Ovest 163, USA Est 82, Europa Centrale 58, Altre Tratte 13, Iberia 11, UK & Irlanda 10, Italia 8, Balcani / EST-EU 5, Benelux 3, Grecia 1, Medio Oriente & Africa 1.
+20/11/2026 07:15 — Controllo eseguito, nessuna novità: 0 voli futuri.
 20/11/2026 01:19 — Elenco unico: 368 voli (Community 368, Telegram 0, doppioni tolti 0). Per area: USA Ovest 157, USA Est 87, Europa Centrale 63, Altre Tratte 14, UK & Irlanda 12, Iberia 12, Italia 11, Balcani / EST-EU 7, Benelux 3, Grecia 1, Medio Oriente & Africa 1.
 20/11/2026 01:15 — Controllo eseguito, nessuna novità: 0 voli futuri.
 19/11/2026 23:16 — Elenco unico: 357 voli (Community 357, Telegram 0, doppioni tolti 0). Per area: USA Ovest 149, USA Est 82, Europa Centrale 64, Altre Tratte 14, UK & Irlanda 13, Iberia 12, Italia 11, Balcani / EST-EU 7, Benelux 3, Grecia 1, Medio Oriente & Africa 1.
@@ -57,5 +59,3 @@
 17/11/2026 09:16 — Elenco unico: 291 voli (Community 291, Telegram 0, doppioni tolti 0). Per area: USA Ovest 116, USA Est 80, Europa Centrale 41, UK & Irlanda 12, Iberia 12, Altre Tratte 11, Italia 8, Benelux 7, Balcani / EST-EU 4.
 17/11/2026 09:15 — Controllo eseguito, nessuna novità: 0 voli futuri.
 17/11/2026 07:16 — Elenco unico: 299 voli (Community 299, Telegram 0, doppioni tolti 0). Per area: USA Ovest 120, USA Est 80, Europa Centrale 44, UK & Irlanda 12, Iberia 12, Altre Tratte 11, Italia 8, Benelux 7, Balcani / EST-EU 5.
-17/11/2026 07:16 — Controllo eseguito, nessuna novità: 0 voli futuri.
-17/11/2026 01:17 — Elenco unico: 311 voli (Community 311, Telegram 0, doppioni tolti 0). Per area: USA Ovest 124, USA Est 81, Europa Centrale 49, Altre Tratte 12, UK & Irlanda 12, Iberia 11, Italia 9, Benelux 7, Balcani / EST-EU 6.
