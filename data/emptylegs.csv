@@ -1,5 +1,5 @@
 area,partenza,arrivo,data,ora,aereo,posti,prezzo
-Altre Tratte,Marsh Harbour,Orlando,22/11/2026,00:45,Phenom 300,7,11490
+Altre Tratte,Marsh Harbour,Orlando,22/11/2026,01:00,Phenom 300,7,11490
 USA,Kalispell,Houston,22/11/2026,01:12,Challenger 604,12,23668
 USA,San Francisco,Las Vegas,22/11/2026,01:18,Gulfstream G-400,14,11490
 USA,Uvalde,Denver,22/11/2026,02:30,Learjet 60,8,16429
@@ -9,14 +9,11 @@ USA,Naples (Stati Uniti),Conroe,22/11/2026,04:25,Legacy 650,13,20681
 USA,Las Vegas,Dallas,22/11/2026,04:45,Learjet 60XR,7,7399
 USA,Thermal,Dallas,22/11/2026,04:45,Learjet 60XR,7,7682
 USA,Las Vegas,San Francisco,22/11/2026,05:30,Challenger 604,9,6386
-Europa Centrale,Stuttgart,Barcelona,22/11/2026,06:00,Citation M2,6,8489
-Europa Centrale,Stuttgart,Barcelona,22/11/2026,06:00,Citation CJ3+,8,9188
-Europa Centrale,Berlin,Nice,22/11/2026,06:45,Global Express,12,16468
+USA,San Antonio,Houston,22/11/2026,06:00,Challenger 604,10,5172
 USA,Nashville,Conroe,22/11/2026,07:00,Pilatus PC 12,7,9538
-Europa Centrale,Nice,Rome,22/11/2026,07:00,Challenger 300,8,11774
+USA,San Antonio,Tucson,22/11/2026,07:00,Learjet 60,8,17233
 USA,Austin,Dallas,22/11/2026,07:30,Learjet 60XR,7,4614
-Balcani / EST-EU,Chisinau,Cagliari,22/11/2026,07:45,Phenom 300,7,14368
-USA,Missoula,Tucson,22/11/2026,08:18,Learjet 60,8,18842
+USA,Missoula,Camarillo,22/11/2026,08:00,Learjet 60,8,18842
 Iberia,Valencia,Casablanca,22/11/2026,09:30,Falcon 2000EX EASy,9,9538
 USA,Austin,Las Vegas,22/11/2026,09:45,Challenger 850,15,10698
 Balcani / EST-EU,Paphos,Geneva,22/11/2026,10:15,Praetor 600,10,23239
@@ -48,8 +45,8 @@ Europa Centrale,Nice,Memmingen,22/11/2026,16:00,Challenger 300,8,12710
 USA,Los Angeles,Las Vegas,22/11/2026,16:30,Citation XLS,8,3283
 Europa Centrale,Berlin,Hamburg,22/11/2026,16:37,Citation Mustang,4,1704
 USA,Austin,Las Vegas,22/11/2026,17:00,Challenger 850,15,12739
-USA,Denver,Provo,22/11/2026,17:00,Challenger 850,15,6380
 USA,Denver,Las Vegas,22/11/2026,17:00,Challenger 850,15,6691
+USA,Denver,Provo,22/11/2026,17:00,Challenger 850,15,6380
 USA,Los Angeles,Las Vegas,22/11/2026,17:00,Challenger 850,15,6343
 USA,Calgary,Phoenix,22/11/2026,17:30,Challenger 350,8,16010
 USA,Los Angeles,Las Vegas,22/11/2026,17:30,Citation XLS,8,3287
@@ -61,7 +58,6 @@ USA,Austin,Dallas,22/11/2026,20:00,Citation XLS,8,3296
 Europa Centrale,Berlin,Graz,22/11/2026,20:00,Challenger 350,9,18833
 USA,Houston,Fort Lauderdale,22/11/2026,21:00,Citation Ultra,7,10226
 Europa Centrale,Geneva,Girona,22/11/2026,21:30,Beechjet 400A,8,10198
-USA,San Antonio,Houston,22/11/2026,22:18,Challenger 604,10,5172
 USA,Vancouver,Calgary,22/11/2026,22:40,Learjet 45,8,5765
 USA,Santa Rosa,Las Vegas,22/11/2026,23:24,Gulfstream G-400,14,12523
 USA,Fort Lauderdale,Orlando,22/11/2026,,Phenom 300,8,11030
@@ -69,12 +65,13 @@ USA,Las Vegas,Los Angeles,22/11/2026,,Premier I,6,7010
 USA,Las Vegas,Napa,22/11/2026,,Premier IA,6,7010
 USA,Los Angeles,Las Vegas,22/11/2026,,Premier I,6,7010
 USA,Midland,Waco,22/11/2026,,Citation V,7,4139
+USA,Naples (Stati Uniti),Orlando,22/11/2026,,Phenom 300,7,11030
 USA,Phoenix,Las Vegas,22/11/2026,,Premier I,6,7010
 USA,Rochester,Naples (Stati Uniti),22/11/2026,,Citation XLS,8,34582
 USA,Salt Lake City,Las Vegas,22/11/2026,,Premier I,6,7010
 USA,Cleveland,Boston,23/11/2026,00:42,Hawker 900XP,9,10445
 USA,Cleveland,Baltimore,23/11/2026,01:00,Hawker 900XP,8,10445
-USA,El Paso,Camarillo,23/11/2026,03:54,Learjet 60,8,17233
+USA,Charleston,Knoxville,23/11/2026,04:42,Beech Baron G58,5,3678
 USA,Phoenix,Santa Ana,23/11/2026,04:42,Citation XLS,8,6436
 USA,Indianapolis,Denver,23/11/2026,05:06,Learjet 60,8,21944
 USA,Pittsburgh,Baltimore,23/11/2026,05:14,Challenger 300,9,5172
@@ -84,6 +81,7 @@ USA,Springfield,Nashville,23/11/2026,05:42,Pilatus PC 12,7,3564
 USA,Atlanta,Panama City,23/11/2026,05:45,Phenom 300,7,11490
 Europa Centrale,Stuttgart,Strasbourg,23/11/2026,06:00,Citation M2,6,2897
 USA,Santa Ana,Georgetown,23/11/2026,06:06,Citation V,7,10801
+USA,Dallas,San Antonio,23/11/2026,06:36,Challenger 300,8,6665
 Europa Centrale,Stuttgart,Strasbourg,23/11/2026,06:45,Citation M2,6,2897
 USA,Green Bay,Denver,23/11/2026,07:30,Learjet 60,7,20335
 USA,Phoenix,San Diego,23/11/2026,07:30,Challenger 300,8,7699
@@ -102,6 +100,7 @@ Iberia,Malaga,Geneva,23/11/2026,12:15,Phenom 300E,8,22955
 Europa Centrale,Speyer,Cambridge,23/11/2026,12:30,Citation XLS,7,5702
 USA,Santa Ana,Las Vegas,23/11/2026,13:00,Challenger 850,15,6324
 USA,Vancouver,Calgary,23/11/2026,13:00,Challenger 300,8,7846
+USA,Columbus,Dallas,23/11/2026,13:30,Challenger 300,8,17350
 Balcani / EST-EU,Chisinau,Bacau,23/11/2026,13:45,Phenom 300,8,4709
 Altre Tratte,Nassau,Toronto,23/11/2026,14:00,Falcon 2000,11,16970
 USA,San Diego,Las Vegas,23/11/2026,14:00,Learjet 45XR,8,3310
@@ -110,23 +109,25 @@ Benelux,Liege,Stockholm,23/11/2026,14:30,Embraer ERJ 135,30,23892
 UK & Irlanda,London,Dortmund,23/11/2026,14:45,Phenom 300,9,6618
 USA,Las Vegas,San Diego,23/11/2026,15:30,Learjet 60,7,3906
 Europa Centrale,Zurich,Friedrichshafen,23/11/2026,15:30,Phenom 300,8,2406
-USA,Phoenix,Las Vegas,23/11/2026,16:00,Challenger 850,15,6362
 USA,Phoenix,Las Vegas,23/11/2026,16:00,Challenger 850,15,6364
+USA,Phoenix,Las Vegas,23/11/2026,16:00,Challenger 850,15,6362
 Altre Tratte,Sint Maarten,New York,23/11/2026,16:00,Global 5000,14,28867
+USA,Phoenix,Los Angeles,23/11/2026,16:30,Challenger 850,15,6410
 USA,Phoenix,Las Vegas,23/11/2026,16:30,Challenger 850,15,6332
 USA,Phoenix,Las Vegas,23/11/2026,16:30,Challenger 850,15,6349
-USA,Phoenix,Los Angeles,23/11/2026,16:30,Challenger 850,15,6410
 USA,Phoenix,Los Angeles,23/11/2026,17:00,Challenger 850,15,6410
 USA,Conroe,Santa Ana,23/11/2026,17:29,Legacy 650,13,31019
-USA,Los Angeles,Las Vegas,23/11/2026,17:30,Challenger 850,15,6350
 USA,Los Angeles,Las Vegas,23/11/2026,17:30,Challenger 850,15,6347
+USA,Los Angeles,Las Vegas,23/11/2026,17:30,Challenger 850,15,6350
 USA,Santa Ana,Las Vegas,23/11/2026,17:30,Challenger 850,15,6359
 Europa Centrale,Krakow,Memmingen,23/11/2026,17:45,Challenger 300,8,15226
 USA,Montreal,Philadelphia,23/11/2026,18:30,Citation Ultra,7,5285
 Grecia,Athens,Bacau,23/11/2026,19:45,Phenom 300,8,11573
 Europa Centrale,Strasbourg,Stuttgart,23/11/2026,20:30,Citation M2,6,3743
 USA,Kansas City,Dallas,23/11/2026,20:36,Challenger 604,10,11030
+USA,Reno,San Jose,23/11/2026,20:45,Challenger 850,15,7524
 USA,Aiken,Cleveland,23/11/2026,,Beechjet 400A,8,10445
+USA,El Paso,Austin,23/11/2026,,Learjet 60,8,10112
 USA,Everett,Las Vegas,23/11/2026,,Premier I,6,7010
 USA,Fort Worth,Charleston,23/11/2026,,Citation Ultra,7,10226
 USA,Las Vegas,Napa,23/11/2026,,Premier IA,6,7010
@@ -138,8 +139,8 @@ Altre Tratte,Puerto Vallarta,Houston,24/11/2026,02:15,Challenger 604,10,17808
 USA,Miami,La Romana,24/11/2026,03:30,Citation Ultra,7,9422
 Iberia,Madrid,Lisbon,24/11/2026,05:45,Citation XLS,8,5970
 USA,Abilene,Houston,24/11/2026,06:01,Pilatus PC 12,7,4253
-USA,Las Vegas,Palm Springs,24/11/2026,06:30,Learjet 60,7,3890
 USA,Las Vegas,Palm Springs,24/11/2026,06:30,Learjet 60,7,4616
+USA,Las Vegas,Palm Springs,24/11/2026,06:30,Learjet 60,7,3890
 Europa Centrale,Paris,Strasbourg,24/11/2026,06:30,Citation CJ2,6,6299
 USA,Tallahassee,Marathon,24/11/2026,06:30,Challenger 604,9,6390
 USA,Los Angeles,San Jose,24/11/2026,07:00,Challenger 850,15,6362
@@ -170,8 +171,8 @@ USA,Phoenix,Los Angeles,24/11/2026,17:00,Challenger 850,15,6414
 Altre Tratte,Cabo San Lucas,Las Vegas,24/11/2026,17:45,Learjet 45XR,8,5670
 USA,Calgary,Tucson,24/11/2026,18:00,Challenger 350,8,22493
 Altre Tratte,Cabo San Lucas,Las Vegas,24/11/2026,19:00,Learjet 45XR,8,5665
-USA,Salt Lake City,Las Vegas,24/11/2026,19:00,Challenger 850,15,6395
 USA,Salt Lake City,Los Angeles,24/11/2026,19:00,Challenger 850,15,6359
+USA,Salt Lake City,Las Vegas,24/11/2026,19:00,Challenger 850,15,6395
 USA,Houston,Little Rock,24/11/2026,22:00,Citation Ultra,7,4253
 USA,Toronto,Boston,24/11/2026,23:36,Citation XLS+,8,5684
 USA,Las Vegas,Santa Barbara,24/11/2026,,Premier IA,6,4711
@@ -218,6 +219,7 @@ USA,Orlando,Dallas,26/11/2026,03:08,Citation Ultra,7,11376
 USA,Pittsburgh,Knoxville,26/11/2026,04:00,King Air B200,8,3553
 USA,Norfolk,Washington,26/11/2026,04:27,Praetor 600,11,7928
 USA,Oklahoma City,Cleveland,26/11/2026,04:42,Learjet 45,7,17326
+USA,Montgomery,Rochester (RST),26/11/2026,04:48,Learjet 60,7,17233
 USA,New York,Fort Worth,26/11/2026,05:38,Challenger 604,10,31250
 USA,Lubbock,Houston,26/11/2026,07:12,Citation V,7,6206
 Europa Centrale,Paderborn,Dusseldorf,26/11/2026,08:45,Phenom 300,9,4225
@@ -262,6 +264,7 @@ Europa Centrale,Altenrhein,Bucharest,27/11/2026,17:00,Gulfstream G-200,10,16963
 Balcani / EST-EU,Sibiu,Bucharest,27/11/2026,17:30,HondaJet,5,4094
 UK & Irlanda,London,Paris,27/11/2026,18:45,Citation XLS+,9,6584
 USA,Los Angeles,Las Vegas,27/11/2026,18:45,Challenger 604,12,6342
+USA,New York,Boca Raton,27/11/2026,19:08,Learjet 60,7,21139
 USA,San Diego,San Jose,27/11/2026,19:38,Phenom 300E,9,7470
 USA,Provo,Las Vegas,27/11/2026,22:15,Challenger 850,15,6386
 USA,Knoxville,Panama City,27/11/2026,,King Air F90,7,5976
@@ -269,7 +272,7 @@ USA,Santa Barbara,Las Vegas,27/11/2026,,Premier IA,6,4711
 USA,Cleveland,Toronto,28/11/2026,00:00,Citation Ultra,7,2963
 USA,Phoenix,San JosÃ© del Cabo,28/11/2026,00:00,Legacy 600,13,12984
 USA,Fort Worth,Austin,28/11/2026,00:03,Citation Ultra,7,3793
-USA,Santa Fe,Manhattan,28/11/2026,00:36,Learjet 60,8,10916
+USA,Houston,Manhattan,28/11/2026,00:18,Learjet 60,8,14018
 USA,El Paso,Vail,28/11/2026,02:10,Learjet 60,8,13213
 USA,Las Vegas,Santa Barbara,28/11/2026,02:48,Challenger 604,10,8503
 USA,Santa Barbara,Page,28/11/2026,04:06,Citation XLS,9,9078
@@ -281,7 +284,9 @@ Benelux,Maastricht,Muenster,28/11/2026,10:15,Citation XLS+,9,4694
 Europa Centrale,Innsbruck,Geneva,28/11/2026,14:00,Citation M2,6,6072
 Europa Centrale,Innsbruck,Milan,28/11/2026,15:00,Citation CJ1,5,7084
 USA,San Jose,Las Vegas,28/11/2026,15:45,Learjet 60XR,7,3956
+USA,Charleston,Myrtle Beach,28/11/2026,19:00,Challenger 850,15,6302
 USA,Wilkes-Barre,Toronto,28/11/2026,21:00,Citation Excel,7,6164
+USA,Seattle,Las Vegas,28/11/2026,21:45,Challenger 604,9,7086
 USA,Santa Barbara,San Diego,28/11/2026,22:05,Citation CJ1+,5,3334
 USA,Dallas,Vail,28/11/2026,,Learjet 60,8,16429
 USA,Knoxville,Panama City,28/11/2026,,King Air F90,7,5976
@@ -296,10 +301,18 @@ USA,Charleston,Knoxville,29/11/2026,04:24,King Air F90,7,5057
 USA,Greensboro,Dallas,29/11/2026,04:49,Citation Ultra,7,10226
 USA,Houston,North Platte,29/11/2026,04:54,Challenger 604,10,17808
 USA,Santa Fe,Cabo San Lucas,29/11/2026,05:42,Learjet 60,8,17233
+USA,Los Angeles,Page,29/11/2026,08:30,Hawker 900XP,8,3973
+USA,Las Vegas,La Paz,29/11/2026,10:00,Learjet 45XR,8,5006
 USA,Little Rock,Dallas,29/11/2026,10:03,Citation Ultra,7,4943
+USA,Las Vegas,Mazatlan,29/11/2026,11:30,Citation XLS,8,5674
+USA,Boston,New York,29/11/2026,12:30,Challenger 850,15,6344
+Europa Centrale,Geneva,Malaga,29/11/2026,14:00,Phenom 300E,8,24586
+USA,Los Angeles,Las Vegas,29/11/2026,15:30,Challenger 850,15,6347
+USA,Dallas,Las Vegas,29/11/2026,16:15,Learjet 60,7,7652
 USA,Houston,Vail,29/11/2026,16:26,Challenger 604,10,21256
 USA,Toronto,Naples (Stati Uniti),29/11/2026,16:30,Citation Ultra,7,13529
 USA,Houston,Kalispell,29/11/2026,17:57,Challenger 604,12,26080
+USA,New York,Las Vegas,29/11/2026,18:30,Gulfstream G-550,15,24763
 USA,Austin,Houston,29/11/2026,21:45,Hawker 800XP,8,5172
 USA,Fort Lauderdale,Sarasota,29/11/2026,22:21,Phenom 300E,7,10801
 USA,New York,Toronto,29/11/2026,23:15,Falcon 2000,11,8005
@@ -320,7 +333,7 @@ USA,Rogers,Birmingham (Stati Uniti),30/11/2026,08:06,Citation Ultra,7,5402
 USA,San Antonio,Houston,30/11/2026,10:12,Citation Ultra,7,3334
 USA,Seattle,Phoenix,30/11/2026,10:24,Legacy 600,13,18958
 USA,Sault Ste. Marie,Toronto,30/11/2026,21:12,Citation Ultra,7,3764
-USA,Austin,Saint Louis,30/11/2026,,Learjet 60,8,13213
+USA,Montrose,Saint Louis,30/11/2026,,Learjet 60,8,16429
 USA,Cedar Rapids,Charleston,01/12/2026,00:54,Learjet 60,8,15626
 USA,Brandon,Winnipeg,01/12/2026,02:30,Citation X,9,4644
 USA,Santa Ana,Cabo San Lucas,01/12/2026,02:54,Learjet 60,8,15626
@@ -331,5 +344,10 @@ USA,Knoxville,Gulfport,01/12/2026,20:06,Beech Baron G58,5,6091
 USA,Dallas,Nashville,01/12/2026,21:30,Learjet 60,8,11720
 USA,Dallas,Longview,01/12/2026,,Challenger 300,8,4597
 USA,West Palm Beach,Atlantic City,01/12/2026,,Learjet 60,7,16429
+USA,Miami,El Paso,02/12/2026,03:00,Learjet 60,8,31480
 USA,Flagstaff,Phoenix,02/12/2026,04:30,Challenger 300,8,4139
 USA,New York,Toronto,02/12/2026,04:42,Citation Ultra,7,5684
+USA,Toronto,Fort Myers,02/12/2026,17:00,Citation Ultra,7,13128
+USA,Charleston,Erie,03/12/2026,02:48,Learjet 60,8,13213
+USA,New York,Fort Lauderdale,03/12/2026,05:33,Phenom 300,7,17004
+USA,Edmonton,Calgary,03/12/2026,05:55,Learjet 45,8,4085
